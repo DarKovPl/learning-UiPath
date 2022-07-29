@@ -1,6 +1,6 @@
 {
-  "name": "BuiltFirstProcessWithStudio",
-  "description": "Building a simple process with UiPath Studio.",
+  "name": "CreatingVariables",
+  "description": "Blank Process",
   "main": "Main.xaml",
   "dependencies": {
     "UiPath.Excel.Activities": "[2.12.3]",
@@ -12,7 +12,7 @@
   "entitiesStores": [],
   "schemaVersion": "4.0",
   "studioVersion": "22.4.3.0",
-  "projectVersion": "1.0.1",
+  "projectVersion": "1.0.0",
   "runtimeOptions": {
     "autoDispose": false,
     "netFrameworkLazyLoading": false,
@@ -46,7 +46,7 @@
   "entryPoints": [
     {
       "filePath": "Main.xaml",
-      "uniqueId": "29a1da56-010f-49b8-8349-284c1faa241d",
+      "uniqueId": "aadaf00a-fbfd-417f-93ef-2b3bb05cce97",
       "input": [],
       "output": []
     }

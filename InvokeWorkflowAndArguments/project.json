@@ -1,6 +1,6 @@
 {
-  "name": "BuiltFirstProcessWithStudio",
-  "description": "Building a simple process with UiPath Studio.",
+  "name": "InvokeWorkflowAndArguments",
+  "description": "Blank Process",
   "main": "Main.xaml",
   "dependencies": {
     "UiPath.Excel.Activities": "[2.12.3]",
@@ -12,7 +12,7 @@
   "entitiesStores": [],
   "schemaVersion": "4.0",
   "studioVersion": "22.4.3.0",
-  "projectVersion": "1.0.1",
+  "projectVersion": "1.0.0",
   "runtimeOptions": {
     "autoDispose": false,
     "netFrameworkLazyLoading": false,
@@ -46,7 +46,7 @@
   "entryPoints": [
     {
       "filePath": "Main.xaml",
-      "uniqueId": "29a1da56-010f-49b8-8349-284c1faa241d",
+      "uniqueId": "2b06d201-7967-4080-b03a-986050e70972",
       "input": [],
       "output": []
     }
