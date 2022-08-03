@@ -1,0 +1,111 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Outside___UseAppIicationBrowserActivity" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="966,662" sap2010:WorkflowViewState.IdRef="Outside___UseAppIicationBrowserActivity_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Runtime.InteropServices</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>System.Activities.DynamicUpdate</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>Microsoft.Bcl.AsyncInterfaces</AssemblyReference>
+      <AssemblyReference>System.ValueTuple</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Composition</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Outside___UseAppIicationBrowserActivity" sap:VirtualizedContainerService.HintSize="848,486" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NCheckState Exists="{x:Null}" DisplayName="Check App State 'System'" sap:VirtualizedContainerService.HintSize="806,394" sap2010:WorkflowViewState.IdRef="NCheckState_1" Version="V1">
+      <uix:NCheckState.IfExists>
+        <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="376,177" sap2010:WorkflowViewState.IdRef="Sequence_2">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="334,84" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[&quot;Withdrawal details file is open&quot;]" />
+        </Sequence>
+      </uix:NCheckState.IfExists>
+      <uix:NCheckState.IfNotExists>
+        <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="376,178" sap2010:WorkflowViewState.IdRef="Sequence_3">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="334,84" sap2010:WorkflowViewState.IdRef="MessageBox_2" Text="[&quot;Withdrawal details file isn't open&quot;]" />
+        </Sequence>
+      </uix:NCheckState.IfNotExists>
+      <uix:NCheckState.Target>
+        <uix:TargetAnchorable DesignTimeRectangle="34, 2, 78, 24" FriendlyName="'notepad.exe bla'" Guid="9f633c62-4788-490c-99c2-ff75f0a81023" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAE4AAAAYCAYAAABUfcv3AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGMSURBVFhH7ZWLbcQgDIa7/waZgRWYgREYISu4GAjYvOWmOqn1JyFdiJ+/IfcFiggVTogKJ0SFE6LCCVHhhKhwQlQ4ISqckEY4D/Yy4O78yFi9k4DxLrisz88Pb+d5g76mDwtnwJgLuHaned6uZ0Wf6+PCOe+CeA5q2NM8b9ezos81Fg6bwWsUlinW3Nnb9D6u7rqdUONhrFkeuGstuFIqtBnkZ7Y2WCGrnlLuLg5CYhnneE2BgXDB+DkB0flxaBoqzPZ3UL/Vb3KVl/U0z95mgVKMcU+Ued7bmSAg99leVZxInTIvrExqVMhw+pRBvJiI7McY3HdaD8uXVxsvU2PEB+JD8m4+HxvhbnDl4z1rCG140DNmuWZ5EmvhDgZEe5r1IROOfANYYOKMU9oe/R19MSkWmXyup5yOWT2RpvZCs09jTPvgeY+vqrVomI5vKTq/S85patHGWLCvnLhEV2QRkwqaKB/22iGxffZXPS36IFf44M/hLzIe0E9R4YSocEL+gXC/gwonRIUTAfANNdJHdgVMKAIAAAAASUVORK5CYII=" InformativeScreenshot="530a3eb18935f8263aa2920f0d247728.png" ScopeSelectorArgument="&lt;wnd app='notepad.exe' cls='Notepad' title='bla - Notepad' /&gt;" SearchSteps="Image" TargetType="ImageBased" Visibility="Interactive">
+          <uix:TargetAnchorable.Anchors>
+            <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+              <uix:Target DesignTimeRectangle="8, 8, 22, 22" FriendlyName="'System'" FullSelectorArgument="&lt;ctrl automationid='MenuBar' /&gt;&lt;ctrl name='System' role='menu item' /&gt;" FuzzySelectorArgument="&lt;ctrl automationid='MenuBar' /&gt;&lt;ctrl name='System' role='menu item' automationid='' check:text='System' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAMpSURBVEhLvZXrS5NRHMf9H8y0/gLLGwregt6kUwsiKOh976J3IRQkYpAZYt6z0FILzWmZI8Wlacvp1Onum7tf3ebmplOXQmDpt99zXBi90E1wXzic53ngnM/5nt/3nCch9UwmruQW47RFoIwTg6paO6LqOSWkJsYOGrR4UXLzNqQr6+DduAWRK8D6z9YV1vfql1n/XKpHvUQNjYQfO+j3/j7aNXbYNrZhXA9DHdjEgi8EsWcNY85VCAj23rCMTq0D1WIl6mZUaK6+EzvIv/MTfOMyLKEw9MEwlP4NzHnXIVoOYNTuwyeLBz0GFzrUdjz+JkOn3HgIKsoviUxzvLjVT7hWIXV4MGN3Q2RxQWhwQKCzgq8yoVthwEupjjm5PzSBfoX+ZCCuPov+ELTBLShWNzBP4Cl3AF+cfto2L/rIbafOiWaFFeUj01Cvhg5AFyjexTGAuPro18IQ29yYNB+4GSI3/Soz3iqM5GYJjbNaPJlS4G7fKJyB9QgoKQvFBaWRaY7W7t4eA6mDm8zVrHeN1UboIDfklHPTpXOgTWVHzfwSHgol2KPwMFBacjZ4hWWRqY6WY2sHAyYPg4ybnBjW2zGotaCPatMl52pDbiQaPJ1W4pFwFhXD37ERDh+A0lOyURIlaMoTxDjVYo6ciL1BfKVQjNh8+EhJ66WkvdE60aq0olZmQpVIgbZ5HRvHQBnnclBy6Sr7cJy42HLbJXYHIViy4YPGgh6lEa/lerRR0uo5N3R2KiblKBeI8E6qOXSUmZKD0ihBL1Q2zNFtMEE3gdDhwxDVhW90o3vJhVdqGxoVFjxbMKFSwtVnFjJyzenAUWIWeHnHp2579xc66LRzIBE5+lsbLmnti3q0zGlRR45qyFGlSIZ7fCHMvsA/jqIEGUM/UC01oHbRxFbeTLVoorPSRM8NXJOb0ULfuNYgM+PB2HxkZIyO/pfV4WKrjaYxUBqBivJ4keHRa3igmU0QTWO390W6GU4CilXxA6Wdpd9Efhx+5RyoKB6g9KQ02rqiyOvpKSGbHPHy4wDKTc5AWUEctq4gJQvXCuKQusvns3G9MPabITYBfwCJ02hDnKeISwAAAABJRU5ErkJggg==" SearchSteps="Selector, FuzzySelector" />
+            </scg:List>
+          </uix:TargetAnchorable.Anchors>
+        </uix:TargetAnchorable>
+      </uix:NCheckState.Target>
+    </uix:NCheckState>
+  </Sequence>
+</Activity>
