@@ -105,9 +105,7 @@
     </sap:WorkflowViewStateService.ViewState>
     <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke LogIntoACME workflow" sap:VirtualizedContainerService.HintSize="334,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="LogIntoACME.xaml">
       <ui:InvokeWorkflowFile.Arguments>
-        <OutArgument x:TypeArguments="ui:UiElement" x:Key="out_Browser">
-          <mva:VisualBasicReference x:TypeArguments="ui:UiElement" ExpressionText="Browser" />
-        </OutArgument>
+        <OutArgument x:TypeArguments="ui:UiElement" x:Key="out_Browser">[Browser]</OutArgument>
       </ui:InvokeWorkflowFile.Arguments>
     </ui:InvokeWorkflowFile>
   </Sequence>
