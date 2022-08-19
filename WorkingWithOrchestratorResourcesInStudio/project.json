@@ -1,5 +1,5 @@
 {
-  "name": "AutomationOfSpreadsheetCalculationPractice_1",
+  "name": "WorkingWithOrchestratorResourcesInStudio",
   "description": "Blank Process",
   "main": "Main.xaml",
   "dependencies": {
@@ -12,9 +12,8 @@
   "entitiesStores": [],
   "schemaVersion": "4.0",
   "studioVersion": "22.4.4.0",
-  "projectVersion": "1.0.2",
+  "projectVersion": "1.0.0",
   "runtimeOptions": {
-    "exceptionHandlerWorkflow": "GlobalHandler.xaml",
     "autoDispose": false,
     "netFrameworkLazyLoading": false,
     "isPausable": true,
@@ -47,7 +46,7 @@
   "entryPoints": [
     {
       "filePath": "Main.xaml",
-      "uniqueId": "d3f6bd93-a127-4433-88b0-65b561894425",
+      "uniqueId": "18e22670-e155-4836-a359-82bc439ba6fb",
       "input": [],
       "output": []
     }

@@ -1,8 +1,9 @@
 {
-  "name": "AutomationOfSpreadsheetCalculationPractice_1",
-  "description": "Blank Process",
+  "name": "ACMETemplate",
+  "description": "Blank Template",
   "main": "Main.xaml",
   "dependencies": {
+    "ACMELogin": "[1.0.2]",
     "UiPath.Excel.Activities": "[2.12.3]",
     "UiPath.Mail.Activities": "[1.15.2]",
     "UiPath.System.Activities": "[22.4.4]",
@@ -12,9 +13,8 @@
   "entitiesStores": [],
   "schemaVersion": "4.0",
   "studioVersion": "22.4.4.0",
-  "projectVersion": "1.0.2",
+  "projectVersion": "1.0.0",
   "runtimeOptions": {
-    "exceptionHandlerWorkflow": "GlobalHandler.xaml",
     "autoDispose": false,
     "netFrameworkLazyLoading": false,
     "isPausable": true,
@@ -47,12 +47,12 @@
   "entryPoints": [
     {
       "filePath": "Main.xaml",
-      "uniqueId": "d3f6bd93-a127-4433-88b0-65b561894425",
+      "uniqueId": "305fbd53-c18e-46d4-a887-055f6e42d0d4",
       "input": [],
       "output": []
     }
   ],
-  "isTemplate": false,
+  "isTemplate": true,
   "templateProjectData": {},
   "publishData": {},
   "targetFramework": "Legacy"

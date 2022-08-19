@@ -1,5 +1,5 @@
 {
-  "name": "AutomationOfSpreadsheetCalculationPractice_1",
+  "name": "HTWWQ_Demo_Performer",
   "description": "Blank Process",
   "main": "Main.xaml",
   "dependencies": {
@@ -14,7 +14,6 @@
   "studioVersion": "22.4.4.0",
   "projectVersion": "1.0.2",
   "runtimeOptions": {
-    "exceptionHandlerWorkflow": "GlobalHandler.xaml",
     "autoDispose": false,
     "netFrameworkLazyLoading": false,
     "isPausable": true,
@@ -47,7 +46,7 @@
   "entryPoints": [
     {
       "filePath": "Main.xaml",
-      "uniqueId": "d3f6bd93-a127-4433-88b0-65b561894425",
+      "uniqueId": "efb8aa3a-feae-4871-bc5f-a9b25f1cf099",
       "input": [],
       "output": []
     }

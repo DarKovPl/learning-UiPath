@@ -1,12 +1,12 @@
 {
-  "name": "AutomationOfSpreadsheetCalculationPractice_1",
-  "description": "Blank Process",
-  "main": "Main.xaml",
+  "name": "ACMELogin",
+  "description": "Blank Library",
+  "main": "NewActivity.xaml",
   "dependencies": {
-    "UiPath.Excel.Activities": "[2.12.3]",
-    "UiPath.Mail.Activities": "[1.15.2]",
-    "UiPath.System.Activities": "[22.4.4]",
-    "UiPath.UIAutomation.Activities": "[22.4.7]"
+    "UiPath.Excel.Activities": "2.12.3",
+    "UiPath.Mail.Activities": "1.15.2",
+    "UiPath.System.Activities": "22.4.4",
+    "UiPath.UIAutomation.Activities": "22.4.7"
   },
   "webServices": [],
   "entitiesStores": [],
@@ -14,7 +14,6 @@
   "studioVersion": "22.4.4.0",
   "projectVersion": "1.0.2",
   "runtimeOptions": {
-    "exceptionHandlerWorkflow": "GlobalHandler.xaml",
     "autoDispose": false,
     "netFrameworkLazyLoading": false,
     "isPausable": true,
@@ -32,7 +31,7 @@
   },
   "designOptions": {
     "projectProfile": "Developement",
-    "outputType": "Process",
+    "outputType": "Library",
     "libraryOptions": {
       "includeOriginalXaml": false,
       "privateWorkflows": []
@@ -44,14 +43,6 @@
     "modernBehavior": true
   },
   "expressionLanguage": "CSharp",
-  "entryPoints": [
-    {
-      "filePath": "Main.xaml",
-      "uniqueId": "d3f6bd93-a127-4433-88b0-65b561894425",
-      "input": [],
-      "output": []
-    }
-  ],
   "isTemplate": false,
   "templateProjectData": {},
   "publishData": {},
