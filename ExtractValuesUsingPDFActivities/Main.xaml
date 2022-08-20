@@ -1,0 +1,210 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" sap2010:ExpressionActivityEditor.ExpressionActivityEditor="C#" sap:VirtualizedContainerService.HintSize="1225,1233" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mca="clr-namespace:Microsoft.CSharp.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:sc="clr-namespace:System.Collections;assembly=mscorlib" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <scg:List x:TypeArguments="x:String" Capacity="42">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Text</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>System.Activities.DynamicUpdate</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Runtime.InteropServices</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>UiPath.Vision.OCR</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.OCR.Contracts</x:String>
+      <x:String>UiPath.OCR.Contracts.Activities</x:String>
+      <x:String>UiPath.Core.Activities.OCR.Engines</x:String>
+      <x:String>UiPath.OCR.Activities</x:String>
+      <x:String>UiPath.DocumentUnderstanding.Digitizer.Utils</x:String>
+      <x:String>UiPath.PDF.Activities</x:String>
+    </scg:List>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <scg:List x:TypeArguments="AssemblyReference" Capacity="44">
+      <AssemblyReference>Microsoft.CSharp</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.ServiceModel.Activities</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>Microsoft.Bcl.AsyncInterfaces</AssemblyReference>
+      <AssemblyReference>System.ValueTuple</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Composition</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.Vision.Core</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Contracts</AssemblyReference>
+      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
+      <AssemblyReference>UiPath.DocumentUnderstanding.Digitizer</AssemblyReference>
+      <AssemblyReference>UiPath.PDF.Activities</AssemblyReference>
+    </scg:List>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Sequence - Get Total amount" sap:VirtualizedContainerService.HintSize="554,1168" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:String" Name="item" />
+      <Variable x:TypeArguments="x:String" Name="ValueAmount" />
+      <Variable x:TypeArguments="x:String" Name="DateOfInvoice" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ui:ForEach x:TypeArguments="x:String" CurrentIndex="{x:Null}" DisplayName="For Each" sap:VirtualizedContainerService.HintSize="512,1076" sap2010:WorkflowViewState.IdRef="ForEach`1_2">
+      <ui:ForEach.Body>
+        <ActivityAction x:TypeArguments="x:String">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:String" Name="item" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="476,952" sap2010:WorkflowViewState.IdRef="Sequence_3">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NApplicationCard WebDriverMode="{x:Null}" AttachMode="ByInstance" DisplayName="Use Application: Invoice # 3 A.pdf - Adobe Acrobat Reader DC (64-bit)" sap:VirtualizedContainerService.HintSize="434,612" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" OpenMode="Always" ScopeGuid="fb110408-4085-41ad-80fd-a61a275f5b4b" Version="V2">
+              <uix:NApplicationCard.Body>
+                <ActivityAction x:TypeArguments="x:Object">
+                  <ActivityAction.Argument>
+                    <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+                  </ActivityAction.Argument>
+                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="376,446" sap2010:WorkflowViewState.IdRef="Sequence_2">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <uix:NGetText DisplayName="Get Text 'Total: $799.80'" sap:VirtualizedContainerService.HintSize="334,156" sap2010:WorkflowViewState.IdRef="NGetText_1" ScopeIdentifier="fb110408-4085-41ad-80fd-a61a275f5b4b" Version="V1">
+                      <uix:NGetText.Target>
+                        <uix:TargetAnchorable DesignTimeRectangle="1040, 586, 203, 21" ElementType="Text" FriendlyName="'Total: $799.80'" FullSelectorArgument="&lt;wnd aaname='Document Pane' cls='AVL_AVView' title='AVScrolledPageView' /&gt;&lt;wnd cls='AVL_AVView' title='AVPageView' /&gt;&lt;ctrl name='Total:   *   ' role='text' /&gt;" FuzzySelectorArgument="&lt;wnd aaname='Document Pane' cls='AVL_AVView' title='AVScrolledPageView' /&gt;&lt;wnd cls='AVL_AVView' title='AVPageView' /&gt;&lt;ctrl role='text' automationid='' /&gt;" Guid="7ea45259-d103-4fca-87fa-f09d614f779e" InformativeScreenshot="4873bbacc695d9e2b797f3eccdac7a04.png" ScopeSelectorArgument="&lt;wnd app='acrobat.exe' cls='AcrobatSDIWindow' title='Invoice # 3 A.pdf - Adobe Acrobat Reader DC (64-bit)' /&gt;" SearchSteps="FuzzySelector" Visibility="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target DesignTimeRectangle="422, 442, 845, 33" ElementType="Icon" FriendlyName="'ItemQuantityRateAmount'" FullSelectorArgument="&lt;wnd aaname='Document Pane' cls='AVL_AVView' title='AVScrolledPageView' /&gt;&lt;wnd cls='AVL_AVView' title='AVPageView' /&gt;&lt;ctrl name='ItemQuantityRateAmount  ' role='graphic' /&gt;" FuzzySelectorArgument="&lt;wnd aaname='Document Pane' cls='AVL_AVView' title='AVScrolledPageView' /&gt;&lt;wnd cls='AVL_AVView' title='AVPageView' /&gt;&lt;ctrl name='ItemQuantityRateAmount  ' role='graphic' automationid='' check:text='ItemQuantityRateAmount' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAA1EAAAAlCAYAAACj3mPgAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAA1HSURBVHhe7d2LT1vXHQfw/V3RpUIRRkhJBFIexUoUeZDFEmmRSclMNblpcJSJtsJJC2glj1laSAfd4ra409iQpXlaWOY2TgcqqCGPFgiER0iAEMDG351zfc/l2rmAIQs45fuTPlK4vn7E5z5+v3uOz/0FGAwGg8FgMBgMBoORc9gWUSMjIxgcHCQiIqI8s2vXLiJ6Tdjtw/R6kXWRXWQUUXKl2tpa242AiIiIiIhop5H1UXYxZRZRjx8/RllZme0TiYiIiIiIdipZJ8l6SYVZRF2+fNn2CURERERERDudrJdUmEUUe6GIiIiIiIjsyXpJhVlE2a1IREREREREaSpYRBEREREREeVABYsoIiIiIiKiHKhgEUVERERERJQDFVtXRGlOeBub0OR3o9jucSIiIsozxXB6G9Dadh3h8HW0NZ+Bu7TQZr1tUOyGv+kC/O699o/Ta0JDsbseTc3NaM7QhIC/Fq582d52CK3ci0bx/TNfX52KrSuiHM2IJ8QbjYXhkX/rB78P4S3fbb8+ERERbRvN+SH+emca8tRtjdTzh/im4wzKNfvnvTLZeYMnjDHx6cbCXvG3kYg3erf+c9FLcsATHja2LptIjCMerN1AQr8Xbv95NHqd0Gwfp9WV4GR4CCn5vS/fRcexIpt18tHWtrmK7Sui9IPfHOLN5fbrExER0bbQnI2Iji6IBHYK/V2XcdZbA4/nHfgC7fjngxmRZC1gKOzb2ivV2XmDM4CueAxdAZf420jEE3E0O7KeR3lOFVELeBAJZvRGtQS7cWc2KSr3IYRPltg8144X4bGE2BSa4bB9nFZV4EPXhLpssoih0DuvSSG6tW2uYnuKKEc53IEoJjGPgY7TcJcXW9arEAfpJrHzfIwG75GML0MrdaHaXQ6HdgCeho/T63gOiAbW4HCeQkOT2OmazsFTxq5fIiKizTmAs9FxUSjNoLf12ItJVLEP4SFRYJmJbSFKXW+h2lVqWVecl8uPZy1LDw1MD9tqRL27bOUxrRSu6uModxTA4foNAnKdwPsrQwft8gb9OW/BVbpbvNfbCEQfAckBdJw6Duebv0R1tQulGb1SxSh3V2d9Jtp+qoiyu7C+G5Ud9/SifbDNvbLccQRePQ/M2k70Nv4E0cmk2BQ6cErmjOZzVs8vKa2grgsTqSQe3+zB94spsYuHcMKyD206DzfXb0KgvipzvzT3Y+tzZDueMJbJ48uJ9D5vtqH1+LFGm78iKraliPp1czxjeEC6ctRQXHMNvdNLxlIZCxiNNsKpf9nGTpYcxcCdp+muRhmJCdyO3MD9uaSxIIXEaDfOlhW8+BmIiIhobXsuIDYvEqjRME4W2Dwuztd7AjFRziQw0eVDgXEV2BxpoitHc3zOMoT/FNp6pzKHBqaeov/aqXRvlt7LNI+7Pd9iNKHO8OJ8Pv0NWiuK4LDLG8zhfOfS72XGHHr/0Y9FPEEsYEnKj7RhcHkZMz0foUQtozywVhFViCNtP2AZz9DXelT8bZcrii1ltg/Xavat5Joq9J7J9fJLSiuFPzopvsyH6KqrEvvUU/HvBwidcBiPby4Pl73akaFnK+uL1nw+1I0PnHbDco3PorejWpY+viTvxnBD9o6rSEwi3uqGZtvmxuu8IirypyeqpAHR6SRSk7fwWUMdPDXvo6X7Hp7LIQMhrzhIq50sheeDX6PBfRiHT4dxf0k0izgQD3zxoXidCpwO38NS9hULIiIiyo2e1IhiI3oOhXaPS/ta0SdypuXBNhxZt4gqxOHg9+LcPI8HXRfg9Xjg8X6CyPCiyGVjCBSJ9fX3FJF4iBsX34Wz9Cjq2v6LWZFcjYbrRKJkkzeYyVfdCz1R5UcuoW9xGfOxC9ijf54iHOu4K/5Xk4j6S1f+H5QHVH4n2/Z9eOT2oZPDR68jPplAavpf+EBPyn+F4MAzYOk+uj4UuaKnBt6PujG8nBKb0nkU2fVKrJtf2n2mHajwHKIzy8bFk+wLJXKdzeThlWjtmzH26zOoEW363qWbmEiJ1+i7BKd83RyLKL3wvXEFdc79cNZ9ht7Z9Get0XZYT9SLv4nSsLc5/uJVo4IziMgNfziEKrPxxhHxqZl4jC92OgKfulpm1xhERESUkwJfBHI6iTXPoxnn9PWKqAKU+a6gs/MKfOYokb3wRcZXrhrr5+4UFuMt2Jv1HubvHDLyBvW3+pxGjmBehXaJ5E28/7wo0vZo2KW9g9DQIlITXaiz7V2j7aPyu1Ui9RCR0weNdQ/BF/wCnUEfytTzjVxx5fcw6e1RjXJaP780lu1oGkoabmDG+jso1SNt7jObyMNte3/LEYg9AZZ/QNuRQvu83a6IWhT79l6xLxuvoR9fzP3d2ubGa7xCKvKkiFINk8Dc5COMjY0ZxvFkYdn4ktQ6wwh7VNeizYHbrjGIiIgoN/p5NCnyojOrX6U3zum59UTJv3ejvK4Fn3f3IN43iOHJOXGmlqd9axFll0jJVTZTRBXgQGuvmTxrJ0IYSi3pvVrsecg3Kr/LnljidwiGYhheEIn8uEjkC431NSfqWv+E7p5b6BscxuScviVZEmhrQp1Lfqk+x05mFDZij5kc7EU8Hhf6MSyH6OnD+/aIdTaeh+9u6MEz2cMYrDTWl9QQTaNXeNV9Xy1b4/jCIspaRM1jbOA7o/EsbrbBW7jxxst4fyIiIlrf3hbEbX5Urk8WcegQSjV11VoVWnZJTiWCA/PGsiJUXLyN2VQKidkRDNyOIdr1Fbr6Hq8kQasmUpbkOCNvyH6OkSNYk+IDF40hfa040/UQqYzfd1D+UPmdpW1N6nc6PyJUVSQKKDcu9j6Rv7rB7PAAbsei6Ap1o+/Jaj1RueSX1vfboVSv08ITPDILTUG/2KGG9m48Dy8KxERprH7PZjy+qwAHg/3y6IGehv32+/7BIAaSapnd8YVFlOVgqKpSaxehoB1Hc/c3uBVuwP5NNJ75OkRERJSjQ/igZ0oUHZOInXetzGS3pxE9M/MY7fkakQeiQDJn57M5FxvDpdLLTiI0vARMR+EvVsNx7IbzZZ27X7aIMof0jWF4SqSC9ztwjBMJ5KG1iqis3K8qhOGUSL+jv12ZXn/N4Xy55JfGsh1L9draTGluFFeiioJ/M50ZlR14kMr+feVBNIjjC1L30FG523bfzxxSbPMeLKLkl2apTg+LqnMphaWhCM5XlUHTDqAm+C2m5VSLkfpNVcDmexMREVHOtMOfIj4jiiB5o9PQJ/BVlaO4tBrN0RFxhpWRwETkrPE7B6NImr2F1gpRVInz98m2/2JGTsdlLaJmbiKwX05ZXALX2S8xIO//s+EiypI3ZDzHyBGSvWjdpwo1lRzK4IRT+SuXIsoogvQiSiTlsY+xXxbEjkqc/aIfs2Jbyy6ikn2t2Cf/Xje/VO+1UxkXG2x7atUwPzn07s2N5+FaDTruPweW7iF8+qhon2I4jckolu5cQ6VsQ6NNZ+OXUOHQoJXVoa13Wu9t3GgRZbb5K6Zi+4oovTqV76xmVClCRcu/MWFObSojibn7f4Ff/yEqiygiIqKtoaHYcxk9w9apiY1IzGNuIYnE9Hdok9NKi8SoKtirJ7JmJKYwNiUKJ/38rIbzGY/JSM3gpx8fi9dexsL43+GvzaGIys4bMs736n5CMp4iFjAmItCH9Imli6K4OsBbn+SntYooVQgnRZL9KZzmcL6VSM2O4McpsaGknmP8b2exe9fb6HiQLp3Tsz+ul19a328HMorMF4fvSmqWvhTmY814d8N5uJxe/o/olxdMzJC3LlDHDrF+QTWC/ZYp0+Xj448wtbyRIiq7zdV6r4aKrSui9GknrTe5K4HLfwWhcCeuB6qMH3oWotTtR2vHVwiHr+NqYw3KLA2q3+Qr4+Z5Njf4s71pFxEREW2YVgZ3fTPaQp3ivNyJUFsTfK4S494vP+E/5nA/cU5/71N0dIYRDl2B37Un62a71sf/gEZ5g87itxBo/wqdV/1wvrHaDTffTk9nrl7Dmjdkn+8dlfAHr4vP2Y6A23jO/hbE55OYj7dw2FYe0/M7j7zZsupFtNDb2bOyLTkq8F5rOzrl9ni1EZ6y3SiuakR755e46j8q1tHgcPkRlNvs9QDc+qxxa+eXO5r+/VZb9jO7x9Pf/xubzMO1sho0XpX7pmqzrBzd2qZBP1yOErHvW2+2a38zb485nbldm786KrawiCIiIiLaCrIAq8Hp0B0sZU9vTUT0ElSwiCIiIqKfF/UTAqSwdP9znOC9oYjo/0QFiygiIiL6edEOw/f7PyN0tQFuc0ZAIqKXp4JFFBERERERUQ5UsIgiIiIiIiLKgQoWUURERERERDlQwSKKiIiIiIgoBypYRBEREREREeVAhVlE1dbW2q5IRERERES008l6SYVZRPX29tquTEREREREtNPJekmFWUTJiEQitk8gIiIiIiLaqW7evGlUTOnIKKJkjIyMoL29HfX19URERJRn7E7uRJSf7PZher3IukjWR9nxQhHFYDAYDAaDwWAwGIzVg0UUg8FgMBgMBoPBYOQcwP8ABGkdJop4yfcAAAAASUVORK5CYII=" SearchSteps="Selector, FuzzySelector, Image" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NGetText.Target>
+                      <uix:NGetText.Text>
+                        <OutArgument x:TypeArguments="x:String">
+                          <mca:CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_2">ValueAmount</mca:CSharpReference>
+                        </OutArgument>
+                      </uix:NGetText.Text>
+                    </uix:NGetText>
+                    <uix:NGetText DisplayName="Get Text 'INVOICE'" sap:VirtualizedContainerService.HintSize="334,156" sap2010:WorkflowViewState.IdRef="NGetText_3" ScopeIdentifier="fb110408-4085-41ad-80fd-a61a275f5b4b" Version="V1">
+                      <uix:NGetText.Target>
+                        <uix:TargetAnchorable DesignTimeRectangle="451, 302, 792, 42" ElementType="Text" FriendlyName="'Date: Apr'" FullSelectorArgument="&lt;wnd aaname='Document Pane' cls='AVL_AVView' title='AVScrolledPageView' /&gt;&lt;wnd cls='AVL_AVView' title='AVPageView' /&gt;&lt;ctrl name='Date:   *   Bill   To:   ' role='text' /&gt;" FuzzySelectorArgument="&lt;wnd aaname='Document Pane' cls='AVL_AVView' title='AVScrolledPageView' /&gt;&lt;wnd cls='AVL_AVView' title='AVPageView' /&gt;&lt;ctrl role='text' automationid='' /&gt;" Guid="0887e246-9220-412f-97de-516a41ff476b" ImageBase64="" InformativeScreenshot="fca385a59ff415ed88e138a1f9e12373.png" SearchSteps="Selector" Visibility="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                              <uix:Target DesignTimeRectangle="1077, 163, 178, 59" ElementType="Text" FriendlyName="'INVOICE'" FullSelectorArgument="&lt;wnd aaname='Document Pane' cls='AVL_AVView' title='AVScrolledPageView' /&gt;&lt;wnd cls='AVL_AVView' title='AVPageView' /&gt;&lt;ctrl name='INVOICE   ' role='text' /&gt;" FuzzySelectorArgument="&lt;wnd aaname='Document Pane' cls='AVL_AVView' title='AVScrolledPageView' /&gt;&lt;wnd cls='AVL_AVView' title='AVPageView' /&gt;&lt;ctrl name='INVOICE   ' role='text' automationid='' check:text='INVOICE' /&gt;" ImageBase64="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" SearchSteps="Selector, Image" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                          <uix:TargetAnchorable.ScopeSelectorArgument>
+                            <InArgument x:TypeArguments="x:String">
+                              <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_6">String.Format("&lt;wnd app='acrobat.exe' cls='AcrobatSDIWindow' title='Invoice # 3 {0}.pdf - Adobe Acrobat Reader DC (64-bit)' /&gt;", item)</mca:CSharpValue>
+                            </InArgument>
+                          </uix:TargetAnchorable.ScopeSelectorArgument>
+                        </uix:TargetAnchorable>
+                      </uix:NGetText.Target>
+                      <uix:NGetText.Text>
+                        <OutArgument x:TypeArguments="x:String">
+                          <mca:CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_4">DateOfInvoice</mca:CSharpReference>
+                        </OutArgument>
+                      </uix:NGetText.Text>
+                    </uix:NGetText>
+                  </Sequence>
+                </ActivityAction>
+              </uix:NApplicationCard.Body>
+              <uix:NApplicationCard.TargetApp>
+                <uix:TargetApp Area="-1928, -7, 1936, 1096" FilePath="C:\\Program Files\\Adobe\\Acrobat DC\\Acrobat\\acrobat.exe" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJPSURBVFhH1ZY9aBRBFMevUVCUKIliOPHjEPzIkTRiOAWxSBobLawU7MQ2aBdFBBHkIHiFVjYhcGijyNkIKS5dIHCQSs6rQgq90mZvd7Z5vv9bNu7ODHGyN5xY/Jh9b96895+Zt8uWiOifYjjisdIRZo2hIdhiFvTcNgwHL1yLz45vD1a/UhAEe+fnD4oWH/2KJ/YFkos3pNfIYjh4AYUfP9iT74HBxjrFE/sHnG9zNxGGAwJsCYvgIsJw+BQA/iYiZwBXAdHrV0nDTR6k4HvXGpOSiJCeeK7XyxnAVYCaqVD4fkVERIuPrTFZwjdL2xy7pdfLGcBVQDx1SkZ15RKp+3eMeQN+O5Bbr5czgPMJzNcobNQlKU7CFqPjVUD47i3FJw6QOnfcOm/DqwA0HmJdmjDFqwA0nrp7m9TVaVK35qwxOl4FqDPjcvdhe5Xi8iFS5yelMePyYSmk5rhHvnzKrfEiIHr5TJLL/d+8TqpyLCl48eSfq+BRTma6kls7lAB8eNTpo0nR2SlS12bkGvAm4BSihYeJKBRm0BvqxuVcjsIC5K65MHYWvXiadL6t8TCP3nhwTwTr84UFwBc94cT8wcEzXkE9xoXCAnAC8GPntp25UliAL/5/AdVqVajX6zt2rVajVqtlzNnwIqDf78uY2r1eT0Skvt3wIgAFswLSMQWnkV2TxYsA7LbZbO7YnU5ntCeg2yjebrdHI2BYnAXgJ9KWYBjkx9RRwGd1odwddL9ZExUBuZCTcy/r9XJGCgc2oNYzDVstwzFqrM7RQaXfNljUiwb3UnIAAAAASUVORK5CYII=" InformativeScreenshot="6b9ad10d3b3d95a7fe423d48a84bbd2d.png">
+                  <uix:TargetApp.Arguments>
+                    <InArgument x:TypeArguments="x:String">
+                      <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_3">String.Format("c:\\users\\dariu\\onedrive\\dokumenty\\uipath\\extractvaluesusingpdfactivities\\invoice # 3 {0}.pdf", item)</mca:CSharpValue>
+                    </InArgument>
+                  </uix:TargetApp.Arguments>
+                  <uix:TargetApp.Selector>
+                    <InArgument x:TypeArguments="x:String">
+                      <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_5">String.Format("&lt;wnd app='acrobat.exe' cls='AcrobatSDIWindow' title='Invoice # 3 {0}.pdf - Adobe Acrobat Reader DC (64-bit)' /&gt;", item)</mca:CSharpValue>
+                    </InArgument>
+                  </uix:TargetApp.Selector>
+                </uix:TargetApp>
+              </uix:NApplicationCard.TargetApp>
+            </uix:NApplicationCard>
+            <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="434,84" sap2010:WorkflowViewState.IdRef="MessageBox_1">
+              <ui:MessageBox.Text>
+                <InArgument x:TypeArguments="x:Object">
+                  <mca:CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_4">ValueAmount</mca:CSharpValue>
+                </InArgument>
+              </ui:MessageBox.Text>
+            </ui:MessageBox>
+            <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="434,84" sap2010:WorkflowViewState.IdRef="MessageBox_2">
+              <ui:MessageBox.Text>
+                <InArgument x:TypeArguments="x:Object">
+                  <mca:CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_7">DateOfInvoice</mca:CSharpValue>
+                </InArgument>
+              </ui:MessageBox.Text>
+            </ui:MessageBox>
+          </Sequence>
+        </ActivityAction>
+      </ui:ForEach.Body>
+      <ui:ForEach.Values>
+        <InArgument x:TypeArguments="sc:IEnumerable">
+          <mca:CSharpValue x:TypeArguments="sc:IEnumerable" sap2010:WorkflowViewState.IdRef="CSharpValue`1_1">new[]{"A", "B"}</mca:CSharpValue>
+        </InArgument>
+      </ui:ForEach.Values>
+    </ui:ForEach>
+  </Sequence>
+</Activity>

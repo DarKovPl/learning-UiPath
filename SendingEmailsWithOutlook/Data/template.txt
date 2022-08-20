@@ -1,0 +1,7 @@
+Hello {0},
+
+Please be informed that you're attachment is now ready to be sent.
+
+Thank you,
+
+Robot
