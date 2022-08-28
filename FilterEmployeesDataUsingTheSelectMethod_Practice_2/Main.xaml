@@ -61,8 +61,8 @@
   </TextExpression.ReferencesForImplementation>
   <Sequence sap:VirtualizedContainerService.HintSize="376,565" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
-      <Variable x:TypeArguments="sd:DataTable" Name="DT_Employees" />
-      <Variable x:TypeArguments="sd:DataTable" Name="FilteredEmployees" />
+      <Variable x:TypeArguments="sd:DataTable" Name="dt_Employees" />
+      <Variable x:TypeArguments="sd:DataTable" Name="dt_FilteredEmployees" />
     </Sequence.Variables>
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -72,13 +72,13 @@
     <ui:ReadRange Range="{x:Null}" AddHeaders="True" DataTable="[DT_Employees]" DisplayName="Read Range" sap:VirtualizedContainerService.HintSize="334,87" sap2010:WorkflowViewState.IdRef="ReadRange_1" SheetName="Sheet1" WorkbookPath="Employees Data.xlsx" />
     <Assign sap:VirtualizedContainerService.HintSize="334,60" sap2010:WorkflowViewState.IdRef="Assign_1">
       <Assign.To>
-        <OutArgument x:TypeArguments="sd:DataTable">[FilteredEmployees]</OutArgument>
+        <OutArgument x:TypeArguments="sd:DataTable">[dt_FilteredEmployees]</OutArgument>
       </Assign.To>
       <Assign.Value>
         <InArgument x:TypeArguments="sd:DataTable">[DT_Employees.Select("[Company Name] = 'Timepath Inc.' AND [Role in Company] = 'Programmer'").CopyToDataTable]</InArgument>
       </Assign.Value>
     </Assign>
     <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="334,91" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;Filtering done&quot;]" />
-    <ui:WriteRange AddHeaders="True" DataTable="[FilteredEmployees]" DisplayName="Write Range" sap:VirtualizedContainerService.HintSize="334,115" sap2010:WorkflowViewState.IdRef="WriteRange_1" SheetName="Sheet2" StartingCell="A1" WorkbookPath="Employees Data.xlsx" />
+    <ui:WriteRange AddHeaders="True" DataTable="[dt_FilteredEmployees]" DisplayName="Write Range" sap:VirtualizedContainerService.HintSize="334,115" sap2010:WorkflowViewState.IdRef="WriteRange_1" SheetName="Sheet2" StartingCell="A1" WorkbookPath="Employees Data.xlsx" />
   </Sequence>
 </Activity>

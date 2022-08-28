@@ -1,9 +1,10 @@
 {
-  "name": "FilterEmployeesDataUsingTheSelectMethod_Practice_2",
+  "name": "InvokeMethod",
   "description": "Blank Process",
   "main": "Main.xaml",
   "dependencies": {
     "UiPath.Excel.Activities": "[2.12.3]",
+    "UiPath.Mail.Activities": "[1.15.2]",
     "UiPath.System.Activities": "[22.4.4]",
     "UiPath.UIAutomation.Activities": "[22.4.7]"
   },
@@ -45,7 +46,7 @@
   "entryPoints": [
     {
       "filePath": "Main.xaml",
-      "uniqueId": "61810af3-2639-419b-8f73-922522a68656",
+      "uniqueId": "1a3aeb1c-621b-477e-abe3-44a550a4e416",
       "input": [],
       "output": []
     }

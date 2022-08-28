@@ -1,0 +1,116 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1141,1594" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <scg:List x:TypeArguments="x:String" Capacity="52">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Activities.DynamicUpdate</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Runtime.InteropServices</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>Microsoft.VisualBasic.CompilerServices</x:String>
+    </scg:List>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <scg:List x:TypeArguments="AssemblyReference" Capacity="19">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
+    </scg:List>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence sap2010:Annotation.AnnotationText="Check if two files have the same content by computing&#xA;and comparing the hash&#xA;codes. We use the SHA256&#xA;hash function." DisplayName="Sequence - Compare Files" sap:VirtualizedContainerService.HintSize="839,1529" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:String" Name="FirstFilePath" />
+      <Variable x:TypeArguments="x:String" Name="SecondFilePath" />
+      <Variable x:TypeArguments="x:String" Name="FirstFileHashCode" />
+      <Variable x:TypeArguments="x:String" Name="SecondFileHashCode" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ui:SelectFile DisplayName="Browse for file - First File" Filter="All files (*.*)|*.*" sap:VirtualizedContainerService.HintSize="797,137" sap2010:WorkflowViewState.IdRef="SelectFile_2" SelectedFile="[FirstFilePath]" />
+    <ui:SelectFile DisplayName="Browse for file - Second file" Filter="All files (*.*)|*.*" sap:VirtualizedContainerService.HintSize="797,137" sap2010:WorkflowViewState.IdRef="SelectFile_3" SelectedFile="[SecondFilePath]" />
+    <ui:InvokeCode ContinueOnError="{x:Null}" Code="Dim Encryptor As New System.Security.Cryptography.SHA256CryptoServiceProvider&#xD;&#xA; &#xD;&#xA;' Create a fileStream For the file.&#xD;&#xA;Dim fileStream As FileStream = File.OpenRead(FilePath)&#xD;&#xA;' Be sure it's positioned to the beginning of the stream.&#xD;&#xA;fileStream.Position = 0&#xD;&#xA;&#xD;&#xA;' Compute the hash code for the fileStream&#xD;&#xA;Dim bytesToHash() As Byte = Encryptor.ComputeHash(fileStream)&#xD;&#xA; &#xD;&#xA;' Close the fileStream&#xD;&#xA;fileStream.Close()&#xD;&#xA;&#xD;&#xA;' Convert the hash bytes to user-friendly text&#xD;&#xA;For Each item As Byte In bytesToHash&#xD;&#xA;Result += item.ToString(&quot;x2&quot;)&#xD;&#xA;Next" DisplayName="Invoke Code - Compute hash code for first file" sap:VirtualizedContainerService.HintSize="797,164" sap2010:WorkflowViewState.IdRef="InvokeCode_1">
+      <ui:InvokeCode.Arguments>
+        <InArgument x:TypeArguments="x:String" x:Key="FilePath">
+          <mva:VisualBasicValue x:TypeArguments="x:String" ExpressionText="FirstFilePath" />
+        </InArgument>
+        <OutArgument x:TypeArguments="x:String" x:Key="Result">
+          <mva:VisualBasicReference x:TypeArguments="x:String" ExpressionText="FirstFileHashCode" />
+        </OutArgument>
+      </ui:InvokeCode.Arguments>
+    </ui:InvokeCode>
+    <ui:LogMessage DisplayName="Log message - First file hash" sap:VirtualizedContainerService.HintSize="797,91" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;First file hash signature: &quot; + FirstFileHashCode]" />
+    <ui:InvokeCode ContinueOnError="{x:Null}" Code="Dim Encryptor As New System.Security.Cryptography.SHA256CryptoServiceProvider&#xD;&#xA; &#xD;&#xA;' Create a fileStream For the file.&#xD;&#xA;Dim fileStream As FileStream = File.OpenRead(FilePath)&#xD;&#xA;' Be sure it's positioned to the beginning of the stream.&#xD;&#xA;fileStream.Position = 0&#xD;&#xA;&#xD;&#xA;' Compute the hash code for the fileStream&#xD;&#xA;Dim bytesToHash() As Byte = Encryptor.ComputeHash(fileStream)&#xD;&#xA; &#xD;&#xA;' Close the fileStream&#xD;&#xA;fileStream.Close()&#xD;&#xA;&#xD;&#xA;' Convert the hash bytes to user-friendly text&#xD;&#xA;For Each item As Byte In bytesToHash&#xD;&#xA;Result += item.ToString(&quot;x2&quot;)&#xD;&#xA;Next" DisplayName="Invoke Code - Compute hash code for second file" sap:VirtualizedContainerService.HintSize="797,164" sap2010:WorkflowViewState.IdRef="InvokeCode_2">
+      <ui:InvokeCode.Arguments>
+        <InArgument x:TypeArguments="x:String" x:Key="FilePath">
+          <mva:VisualBasicValue x:TypeArguments="x:String" ExpressionText="SecondFilePath" />
+        </InArgument>
+        <OutArgument x:TypeArguments="x:String" x:Key="Result">
+          <mva:VisualBasicReference x:TypeArguments="x:String" ExpressionText="SecondFileHashCode" />
+        </OutArgument>
+      </ui:InvokeCode.Arguments>
+    </ui:InvokeCode>
+    <ui:LogMessage DisplayName="Log message - First file hash" sap:VirtualizedContainerService.HintSize="797,91" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info" Message="[&quot;Second file hash signature: &quot; + SecondFileHashCode]" />
+    <If Condition="[SecondFileHashCode = FirstFileHashCode]" DisplayName="If files are identical" sap:VirtualizedContainerService.HintSize="797,341" sap2010:WorkflowViewState.IdRef="If_1">
+      <If.Then>
+        <Sequence sap:VirtualizedContainerService.HintSize="376,183" sap2010:WorkflowViewState.IdRef="Sequence_2">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <ui:LogMessage DisplayName="Log message" sap:VirtualizedContainerService.HintSize="334,91" sap2010:WorkflowViewState.IdRef="LogMessage_3" Level="Info" Message="[&quot;Files are equal&quot;]" />
+        </Sequence>
+      </If.Then>
+      <If.Else>
+        <Sequence sap:VirtualizedContainerService.HintSize="376,183" sap2010:WorkflowViewState.IdRef="Sequence_3">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <ui:LogMessage DisplayName="Log message" sap:VirtualizedContainerService.HintSize="334,91" sap2010:WorkflowViewState.IdRef="LogMessage_4" Level="Info" Message="[&quot;Files are NOT equal&quot;]" />
+        </Sequence>
+      </If.Else>
+    </If>
+  </Sequence>
+</Activity>

@@ -10,12 +10,12 @@
         "C:\\Users\\dariu\\.nuget\\packages\\csvhelper\\16.0.0\\lib/net45/CsvHelper.dll",
         "C:\\Users\\dariu\\.nuget\\packages\\documentformat.openxml\\2.5.0\\lib/DocumentFormat.OpenXml.dll",
         "C:\\Users\\dariu\\.nuget\\packages\\microsoft.visualstudio.ole.interop\\16.7.30328.74\\lib/net45/Microsoft.VisualStudio.OLE.Interop.dll",
-        "C:\\Users\\dariu\\.nuget\\packages\\newtonsoft.json\\11.0.2\\lib/net45/Newtonsoft.Json.dll",
+        "C:\\Users\\dariu\\.nuget\\packages\\newtonsoft.json\\13.0.1\\lib/net45/Newtonsoft.Json.dll",
+        "C:\\Users\\dariu\\.nuget\\packages\\npoi\\2.5.5\\lib/net45/NPOI.dll",
         "C:\\Users\\dariu\\.nuget\\packages\\npoi\\2.5.5\\lib/net45/NPOI.OOXML.dll",
         "C:\\Users\\dariu\\.nuget\\packages\\npoi\\2.5.5\\lib/net45/NPOI.OpenXml4Net.dll",
         "C:\\Users\\dariu\\.nuget\\packages\\npoi\\2.5.5\\lib/net45/NPOI.OpenXmlFormats.dll",
-        "C:\\Users\\dariu\\.nuget\\packages\\npoi\\2.5.5\\lib/net45/NPOI.dll",
-        "C:\\Users\\dariu\\.nuget\\packages\\portable.bouncycastle\\1.8.9\\lib/net40/BouncyCastle.Crypto.dll",
+        "C:\\Users\\dariu\\.nuget\\packages\\portable.bouncycastle\\1.9.0\\lib/net40/BouncyCastle.Crypto.dll",
         "C:\\Users\\dariu\\.nuget\\packages\\sharpziplib\\1.3.3\\lib/net45/ICSharpCode.SharpZipLib.dll",
         "C:\\Users\\dariu\\.nuget\\packages\\system.io.abstractions\\3.0.10\\lib/net40/System.IO.Abstractions.dll",
         "C:\\Users\\dariu\\.nuget\\packages\\system.threading.tasks.dataflow\\5.0.0\\lib/net461/System.Threading.Tasks.Dataflow.dll",
@@ -24,13 +24,76 @@
         "C:\\Users\\dariu\\.nuget\\packages\\uipath.excel.activities\\2.12.3\\lib/net461/Microsoft.Vbe.Interop.dll",
         "C:\\Users\\dariu\\.nuget\\packages\\uipath.excel.activities\\2.12.3\\lib/net461/Office.dll",
         "C:\\Users\\dariu\\.nuget\\packages\\uipath.excel.activities\\2.12.3\\lib/net461/UiPath.Excel.Activities.Design.dll",
-        "C:\\Users\\dariu\\.nuget\\packages\\uipath.excel.activities\\2.12.3\\lib/net461/UiPath.Excel.Activities.Package.dll",
         "C:\\Users\\dariu\\.nuget\\packages\\uipath.excel.activities\\2.12.3\\lib/net461/UiPath.Excel.Activities.dll",
+        "C:\\Users\\dariu\\.nuget\\packages\\uipath.excel.activities\\2.12.3\\lib/net461/UiPath.Excel.Activities.Package.dll",
         "C:\\Users\\dariu\\.nuget\\packages\\uipath.excel.activities\\2.12.3\\lib/net461/UiPath.Excel.dll",
         "C:\\Users\\dariu\\.nuget\\packages\\uipath.platform\\22.4.1\\lib/net461/UiPath.Platform.dll",
         "C:\\Users\\dariu\\.nuget\\packages\\uipath.telemetry.client\\1.5.3\\lib/net461/TelemetryClient.dll"
       ],
       "Path": "C:\\Users\\dariu\\.nuget\\packages\\uipath.excel.activities\\2.12.3"
+    },
+    {
+      "Package": {
+        "Id": "UiPath.Mail.Activities",
+        "Version": "1.15.2"
+      },
+      "Assemblies": [
+        "C:\\Users\\dariu\\.nuget\\packages\\google.apis\\1.55.0\\lib/net45/Google.Apis.dll",
+        "C:\\Users\\dariu\\.nuget\\packages\\google.apis\\1.55.0\\lib/net45/Google.Apis.PlatformServices.dll",
+        "C:\\Users\\dariu\\.nuget\\packages\\google.apis.auth\\1.55.0\\lib/net461/Google.Apis.Auth.dll",
+        "C:\\Users\\dariu\\.nuget\\packages\\google.apis.auth\\1.55.0\\lib/net461/Google.Apis.Auth.PlatformServices.dll",
+        "C:\\Users\\dariu\\.nuget\\packages\\google.apis.calendar.v3\\1.55.0.2554\\lib/net45/Google.Apis.Calendar.v3.dll",
+        "C:\\Users\\dariu\\.nuget\\packages\\google.apis.core\\1.55.0\\lib/net45/Google.Apis.Core.dll",
+        "C:\\Users\\dariu\\.nuget\\packages\\google.apis.gmail.v1\\1.55.0.2510\\lib/net45/Google.Apis.Gmail.v1.dll",
+        "C:\\Users\\dariu\\.nuget\\packages\\google.apis.peopleservice.v1\\1.55.0.2567\\lib/net45/Google.Apis.PeopleService.v1.dll",
+        "C:\\Users\\dariu\\.nuget\\packages\\htmlagilitypack\\1.11.38\\lib/Net45/HtmlAgilityPack.dll",
+        "C:\\Users\\dariu\\.nuget\\packages\\mailkit\\3.1.1\\lib/net46/MailKit.dll",
+        "C:\\Users\\dariu\\.nuget\\packages\\microsoft.exchange.webservices\\2.2.0\\lib/40/Microsoft.Exchange.WebServices.Auth.dll",
+        "C:\\Users\\dariu\\.nuget\\packages\\microsoft.exchange.webservices\\2.2.0\\lib/40/Microsoft.Exchange.WebServices.dll",
+        "C:\\Users\\dariu\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\5.0.0\\lib/net461/Microsoft.Extensions.FileSystemGlobbing.dll",
+        "C:\\Users\\dariu\\.nuget\\packages\\microsoft.identity.client\\4.35.1\\lib/net461/Microsoft.Identity.Client.dll",
+        "C:\\Users\\dariu\\.nuget\\packages\\microsoft.identity.client.desktop\\4.35.1\\lib/net461/Microsoft.Identity.Client.Desktop.dll",
+        "C:\\Users\\dariu\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\6.12.2\\lib/net461/Microsoft.IdentityModel.JsonWebTokens.dll",
+        "C:\\Users\\dariu\\.nuget\\packages\\microsoft.identitymodel.logging\\6.12.2\\lib/net461/Microsoft.IdentityModel.Logging.dll",
+        "C:\\Users\\dariu\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.12.2\\lib/net461/Microsoft.IdentityModel.Tokens.dll",
+        "C:\\Users\\dariu\\.nuget\\packages\\microsoft.web.webview2\\1.0.864.35\\lib/net45/Microsoft.Web.WebView2.Core.dll",
+        "C:\\Users\\dariu\\.nuget\\packages\\microsoft.web.webview2\\1.0.864.35\\lib/net45/Microsoft.Web.WebView2.WinForms.dll",
+        "C:\\Users\\dariu\\.nuget\\packages\\microsoft.web.webview2\\1.0.864.35\\lib/net45/Microsoft.Web.WebView2.Wpf.dll",
+        "C:\\Users\\dariu\\.nuget\\packages\\mimekit\\3.1.1\\lib/net46/MimeKit.dll",
+        "C:\\Users\\dariu\\.nuget\\packages\\newtonsoft.json\\13.0.1\\lib/net45/Newtonsoft.Json.dll",
+        "C:\\Users\\dariu\\.nuget\\packages\\nito.asyncex.context\\5.1.0\\lib/netstandard2.0/Nito.AsyncEx.Context.dll",
+        "C:\\Users\\dariu\\.nuget\\packages\\nito.asyncex.coordination\\5.1.0\\lib/netstandard2.0/Nito.AsyncEx.Coordination.dll",
+        "C:\\Users\\dariu\\.nuget\\packages\\nito.asyncex.interop.waithandles\\5.1.0\\lib/netstandard2.0/Nito.AsyncEx.Interop.WaitHandles.dll",
+        "C:\\Users\\dariu\\.nuget\\packages\\nito.asyncex.oop\\5.1.0\\lib/netstandard2.0/Nito.AsyncEx.Oop.dll",
+        "C:\\Users\\dariu\\.nuget\\packages\\nito.asyncex.tasks\\5.1.0\\lib/netstandard2.0/Nito.AsyncEx.Tasks.dll",
+        "C:\\Users\\dariu\\.nuget\\packages\\nito.cancellation\\1.1.0\\lib/netstandard2.0/Nito.Cancellation.dll",
+        "C:\\Users\\dariu\\.nuget\\packages\\nito.collections.deque\\1.1.0\\lib/netstandard2.0/Nito.Collections.Deque.dll",
+        "C:\\Users\\dariu\\.nuget\\packages\\nito.disposables\\2.2.0\\lib/net461/Nito.Disposables.dll",
+        "C:\\Users\\dariu\\.nuget\\packages\\portable.bouncycastle\\1.9.0\\lib/net40/BouncyCastle.Crypto.dll",
+        "C:\\Users\\dariu\\.nuget\\packages\\system.buffers\\4.5.1\\lib/net461/System.Buffers.dll",
+        "C:\\Users\\dariu\\.nuget\\packages\\system.collections.immutable\\5.0.0\\lib/net461/System.Collections.Immutable.dll",
+        "C:\\Users\\dariu\\.nuget\\packages\\system.identitymodel.tokens.jwt\\6.12.2\\lib/net461/System.IdentityModel.Tokens.Jwt.dll",
+        "C:\\Users\\dariu\\.nuget\\packages\\system.io.abstractions\\3.0.10\\lib/net40/System.IO.Abstractions.dll",
+        "C:\\Users\\dariu\\.nuget\\packages\\system.memory\\4.5.4\\lib/net461/System.Memory.dll",
+        "C:\\Users\\dariu\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\lib/net46/System.Numerics.Vectors.dll",
+        "C:\\Users\\dariu\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.7.1\\lib/net461/System.Runtime.CompilerServices.Unsafe.dll",
+        "C:\\Users\\dariu\\.nuget\\packages\\system.threading.tasks.dataflow\\5.0.0\\lib/net461/System.Threading.Tasks.Dataflow.dll",
+        "C:\\Users\\dariu\\.nuget\\packages\\system.valuetuple\\4.5.0\\lib/net461/System.ValueTuple.dll",
+        "C:\\Users\\dariu\\.nuget\\packages\\uipath.activities.runtimegovernance\\1.1.3\\lib/net461/UiPath.Activities.RuntimeGovernance.dll",
+        "C:\\Users\\dariu\\.nuget\\packages\\uipath.connectionclient\\1.3.0\\lib/net461/ConnectionClient.dll",
+        "C:\\Users\\dariu\\.nuget\\packages\\uipath.mail.activities\\1.15.2\\lib/net461/Interop.Domino.UiPath.dll",
+        "C:\\Users\\dariu\\.nuget\\packages\\uipath.mail.activities\\1.15.2\\lib/net461/Microsoft.Office.Interop.Outlook.dll",
+        "C:\\Users\\dariu\\.nuget\\packages\\uipath.mail.activities\\1.15.2\\lib/net461/Microsoft.Office.Interop.Word.dll",
+        "C:\\Users\\dariu\\.nuget\\packages\\uipath.mail.activities\\1.15.2\\lib/net461/Office.dll",
+        "C:\\Users\\dariu\\.nuget\\packages\\uipath.mail.activities\\1.15.2\\lib/net461/UiPath.Mail.Activities.Design.dll",
+        "C:\\Users\\dariu\\.nuget\\packages\\uipath.mail.activities\\1.15.2\\lib/net461/UiPath.Mail.Activities.dll",
+        "C:\\Users\\dariu\\.nuget\\packages\\uipath.mail.activities\\1.15.2\\lib/net461/UiPath.Mail.Activities.Package.dll",
+        "C:\\Users\\dariu\\.nuget\\packages\\uipath.mail.activities\\1.15.2\\lib/net461/UiPath.Mail.dll",
+        "C:\\Users\\dariu\\.nuget\\packages\\uipath.mail.activities\\1.15.2\\lib/net461/UiPath.MainSessionServer.Shared.dll",
+        "C:\\Users\\dariu\\.nuget\\packages\\uipath.platform\\22.4.1\\lib/net461/UiPath.Platform.dll",
+        "C:\\Users\\dariu\\.nuget\\packages\\uipath.telemetry.client\\1.5.3\\lib/net461/TelemetryClient.dll"
+      ],
+      "Path": "C:\\Users\\dariu\\.nuget\\packages\\uipath.mail.activities\\1.15.2"
     },
     {
       "Package": {
@@ -62,7 +125,7 @@
         "C:\\Users\\dariu\\.nuget\\packages\\microsoft.extensions.options\\3.1.6\\lib/netstandard2.0/Microsoft.Extensions.Options.dll",
         "C:\\Users\\dariu\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.6\\lib/netstandard2.0/Microsoft.Extensions.Primitives.dll",
         "C:\\Users\\dariu\\.nuget\\packages\\microsoft.rest.clientruntime\\2.3.21\\lib/net461/Microsoft.Rest.ClientRuntime.dll",
-        "C:\\Users\\dariu\\.nuget\\packages\\newtonsoft.json\\11.0.2\\lib/net45/Newtonsoft.Json.dll",
+        "C:\\Users\\dariu\\.nuget\\packages\\newtonsoft.json\\13.0.1\\lib/net45/Newtonsoft.Json.dll",
         "C:\\Users\\dariu\\.nuget\\packages\\sharpziplib\\1.3.3\\lib/net45/ICSharpCode.SharpZipLib.dll",
         "C:\\Users\\dariu\\.nuget\\packages\\system.buffers\\4.5.1\\lib/net461/System.Buffers.dll",
         "C:\\Users\\dariu\\.nuget\\packages\\system.collections.immutable\\5.0.0\\lib/net461/System.Collections.Immutable.dll",
@@ -98,7 +161,7 @@
         "C:\\Users\\dariu\\.nuget\\packages\\microsoft.azure.cognitiveservices.vision.computervision\\7.0.1\\lib/net461/Microsoft.Azure.CognitiveServices.Vision.ComputerVision.dll",
         "C:\\Users\\dariu\\.nuget\\packages\\microsoft.rest.clientruntime\\2.3.21\\lib/net461/Microsoft.Rest.ClientRuntime.dll",
         "C:\\Users\\dariu\\.nuget\\packages\\microsoft.rest.clientruntime.azure\\3.3.18\\lib/net452/Microsoft.Rest.ClientRuntime.Azure.dll",
-        "C:\\Users\\dariu\\.nuget\\packages\\newtonsoft.json\\11.0.2\\lib/net45/Newtonsoft.Json.dll",
+        "C:\\Users\\dariu\\.nuget\\packages\\newtonsoft.json\\13.0.1\\lib/net45/Newtonsoft.Json.dll",
         "C:\\Users\\dariu\\.nuget\\packages\\nlog\\4.5.11\\lib/net45/NLog.dll",
         "C:\\Users\\dariu\\.nuget\\packages\\polly\\7.1.0\\lib/netstandard2.0/Polly.dll",
         "C:\\Users\\dariu\\.nuget\\packages\\system.buffers\\4.5.1\\lib/net461/System.Buffers.dll",
@@ -122,18 +185,18 @@
         "C:\\Users\\dariu\\.nuget\\packages\\uipath.uiautomation.activities\\22.4.7\\lib/net461/UiPath.CV.Activities.dll",
         "C:\\Users\\dariu\\.nuget\\packages\\uipath.uiautomation.activities\\22.4.7\\lib/net461/UiPath.CV.dll",
         "C:\\Users\\dariu\\.nuget\\packages\\uipath.uiautomation.activities\\22.4.7\\lib/net461/UiPath.UIAutomation.Activities.Design.dll",
+        "C:\\Users\\dariu\\.nuget\\packages\\uipath.uiautomation.activities\\22.4.7\\lib/net461/UiPath.UiAutomation.Activities.dll",
         "C:\\Users\\dariu\\.nuget\\packages\\uipath.uiautomation.activities\\22.4.7\\lib/net461/UiPath.UIAutomationCore.dll",
         "C:\\Users\\dariu\\.nuget\\packages\\uipath.uiautomation.activities\\22.4.7\\lib/net461/UiPath.UIAutomationNext.Activities.Design.dll",
         "C:\\Users\\dariu\\.nuget\\packages\\uipath.uiautomation.activities\\22.4.7\\lib/net461/UiPath.UIAutomationNext.Activities.dll",
         "C:\\Users\\dariu\\.nuget\\packages\\uipath.uiautomation.activities\\22.4.7\\lib/net461/UiPath.UIAutomationNext.dll",
-        "C:\\Users\\dariu\\.nuget\\packages\\uipath.uiautomation.activities\\22.4.7\\lib/net461/UiPath.UiAutomation.Activities.dll",
         "C:\\Users\\dariu\\.nuget\\packages\\uipath.uiautomation.activities\\22.4.7\\lib/net461/UiPath.Wizards.dll",
         "C:\\Users\\dariu\\.nuget\\packages\\uipath.vision\\3.3.0\\lib/net461/UiPath.Vision.AzureComputerVision.dll",
         "C:\\Users\\dariu\\.nuget\\packages\\uipath.vision\\3.3.0\\lib/net461/UiPath.Vision.Core.dll",
+        "C:\\Users\\dariu\\.nuget\\packages\\uipath.vision\\3.3.0\\lib/net461/UiPath.Vision.dll",
         "C:\\Users\\dariu\\.nuget\\packages\\uipath.vision\\3.3.0\\lib/net461/UiPath.Vision.GoogleCloud.dll",
         "C:\\Users\\dariu\\.nuget\\packages\\uipath.vision\\3.3.0\\lib/net461/UiPath.Vision.Microsoft.dll",
-        "C:\\Users\\dariu\\.nuget\\packages\\uipath.vision\\3.3.0\\lib/net461/UiPath.Vision.Tesseract.dll",
-        "C:\\Users\\dariu\\.nuget\\packages\\uipath.vision\\3.3.0\\lib/net461/UiPath.Vision.dll"
+        "C:\\Users\\dariu\\.nuget\\packages\\uipath.vision\\3.3.0\\lib/net461/UiPath.Vision.Tesseract.dll"
       ],
       "Path": "C:\\Users\\dariu\\.nuget\\packages\\uipath.uiautomation.activities\\22.4.7"
     }
@@ -168,6 +231,97 @@
       "Id": "DocumentFormat.OpenXml",
       "Version": "2.5.0",
       "Dependencies": []
+    },
+    "Google.Apis": {
+      "Id": "Google.Apis",
+      "Version": "1.55.0",
+      "Dependencies": [
+        {
+          "Item1": "Google.Apis.Core",
+          "Item2": "[1.55.0, )"
+        }
+      ]
+    },
+    "Google.Apis.Auth": {
+      "Id": "Google.Apis.Auth",
+      "Version": "1.55.0",
+      "Dependencies": [
+        {
+          "Item1": "Google.Apis.Core",
+          "Item2": "[1.55.0, )"
+        },
+        {
+          "Item1": "Google.Apis",
+          "Item2": "[1.55.0, )"
+        }
+      ]
+    },
+    "Google.Apis.Calendar.v3": {
+      "Id": "Google.Apis.Calendar.v3",
+      "Version": "1.55.0.2554",
+      "Dependencies": [
+        {
+          "Item1": "Google.Apis",
+          "Item2": "[1.55.0, )"
+        },
+        {
+          "Item1": "Google.Apis.Auth",
+          "Item2": "[1.55.0, )"
+        }
+      ]
+    },
+    "Google.Apis.Core": {
+      "Id": "Google.Apis.Core",
+      "Version": "1.55.0",
+      "Dependencies": [
+        {
+          "Item1": "Newtonsoft.Json",
+          "Item2": "[13.0.1, )"
+        }
+      ]
+    },
+    "Google.Apis.Gmail.v1": {
+      "Id": "Google.Apis.Gmail.v1",
+      "Version": "1.55.0.2510",
+      "Dependencies": [
+        {
+          "Item1": "Google.Apis",
+          "Item2": "[1.55.0, )"
+        },
+        {
+          "Item1": "Google.Apis.Auth",
+          "Item2": "[1.55.0, )"
+        }
+      ]
+    },
+    "Google.Apis.PeopleService.v1": {
+      "Id": "Google.Apis.PeopleService.v1",
+      "Version": "1.55.0.2567",
+      "Dependencies": [
+        {
+          "Item1": "Google.Apis",
+          "Item2": "[1.55.0, )"
+        },
+        {
+          "Item1": "Google.Apis.Auth",
+          "Item2": "[1.55.0, )"
+        }
+      ]
+    },
+    "HtmlAgilityPack": {
+      "Id": "HtmlAgilityPack",
+      "Version": "1.11.38",
+      "Dependencies": []
+    },
+    "MailKit": {
+      "Id": "MailKit",
+      "Version": "3.1.1",
+      "Dependencies": [
+        {
+          "Item1": "MimeKit",
+          "Item2": "[3.1.1, )"
+        }
+      ]
     },
     "Microsoft.AspNet.SignalR.Client": {
       "Id": "Microsoft.AspNet.SignalR.Client",
@@ -407,6 +561,11 @@
       "Version": "4.7.0",
       "Dependencies": []
     },
+    "Microsoft.Exchange.WebServices": {
+      "Id": "Microsoft.Exchange.WebServices",
+      "Version": "2.2.0",
+      "Dependencies": []
+    },
     "Microsoft.Extensions.Configuration": {
       "Id": "Microsoft.Extensions.Configuration",
       "Version": "3.1.6",
@@ -454,6 +613,11 @@
     "Microsoft.Extensions.DependencyInjection.Abstractions": {
       "Id": "Microsoft.Extensions.DependencyInjection.Abstractions",
       "Version": "3.1.6",
+      "Dependencies": []
+    },
+    "Microsoft.Extensions.FileSystemGlobbing": {
+      "Id": "Microsoft.Extensions.FileSystemGlobbing",
+      "Version": "5.0.0",
       "Dependencies": []
     },
     "Microsoft.Extensions.Logging": {
@@ -515,6 +679,54 @@
         }
       ]
     },
+    "Microsoft.Identity.Client": {
+      "Id": "Microsoft.Identity.Client",
+      "Version": "4.35.1",
+      "Dependencies": []
+    },
+    "Microsoft.Identity.Client.Desktop": {
+      "Id": "Microsoft.Identity.Client.Desktop",
+      "Version": "4.35.1",
+      "Dependencies": [
+        {
+          "Item1": "Microsoft.Identity.Client",
+          "Item2": "[4.35.1, )"
+        },
+        {
+          "Item1": "Microsoft.Web.WebView2",
+          "Item2": "[1.0.864.35, )"
+        },
+        {
+          "Item1": "Microsoft.Windows.SDK.Contracts",
+          "Item2": "[10.0.17763.1000, )"
+        }
+      ]
+    },
+    "Microsoft.IdentityModel.JsonWebTokens": {
+      "Id": "Microsoft.IdentityModel.JsonWebTokens",
+      "Version": "6.12.2",
+      "Dependencies": [
+        {
+          "Item1": "Microsoft.IdentityModel.Tokens",
+          "Item2": "[6.12.2, )"
+        }
+      ]
+    },
+    "Microsoft.IdentityModel.Logging": {
+      "Id": "Microsoft.IdentityModel.Logging",
+      "Version": "6.12.2",
+      "Dependencies": []
+    },
+    "Microsoft.IdentityModel.Tokens": {
+      "Id": "Microsoft.IdentityModel.Tokens",
+      "Version": "6.12.2",
+      "Dependencies": [
+        {
+          "Item1": "Microsoft.IdentityModel.Logging",
+          "Item2": "[6.12.2, )"
+        }
+      ]
+    },
     "Microsoft.Rest.ClientRuntime": {
       "Id": "Microsoft.Rest.ClientRuntime",
       "Version": "2.3.21",
@@ -549,10 +761,152 @@
       "Version": "16.7.30328.74",
       "Dependencies": []
     },
+    "Microsoft.Web.WebView2": {
+      "Id": "Microsoft.Web.WebView2",
+      "Version": "1.0.864.35",
+      "Dependencies": []
+    },
+    "Microsoft.Windows.SDK.Contracts": {
+      "Id": "Microsoft.Windows.SDK.Contracts",
+      "Version": "10.0.17763.1000",
+      "Dependencies": [
+        {
+          "Item1": "System.Runtime.WindowsRuntime",
+          "Item2": "[4.6.0, )"
+        },
+        {
+          "Item1": "System.Runtime.WindowsRuntime.UI.Xaml",
+          "Item2": "[4.6.0, )"
+        }
+      ]
+    },
+    "MimeKit": {
+      "Id": "MimeKit",
+      "Version": "3.1.1",
+      "Dependencies": [
+        {
+          "Item1": "System.Buffers",
+          "Item2": "[4.5.1, )"
+        },
+        {
+          "Item1": "Portable.BouncyCastle",
+          "Item2": "[1.9.0, )"
+        }
+      ]
+    },
     "Newtonsoft.Json": {
       "Id": "Newtonsoft.Json",
-      "Version": "11.0.2",
+      "Version": "13.0.1",
       "Dependencies": []
+    },
+    "Nito.AsyncEx": {
+      "Id": "Nito.AsyncEx",
+      "Version": "5.1.0",
+      "Dependencies": [
+        {
+          "Item1": "Nito.AsyncEx.Context",
+          "Item2": "[5.1.0, )"
+        },
+        {
+          "Item1": "Nito.AsyncEx.Coordination",
+          "Item2": "[5.1.0, )"
+        },
+        {
+          "Item1": "Nito.AsyncEx.Interop.WaitHandles",
+          "Item2": "[5.1.0, )"
+        },
+        {
+          "Item1": "Nito.AsyncEx.Oop",
+          "Item2": "[5.1.0, )"
+        },
+        {
+          "Item1": "Nito.AsyncEx.Tasks",
+          "Item2": "[5.1.0, )"
+        },
+        {
+          "Item1": "Nito.Cancellation",
+          "Item2": "[1.1.0, )"
+        }
+      ]
+    },
+    "Nito.AsyncEx.Context": {
+      "Id": "Nito.AsyncEx.Context",
+      "Version": "5.1.0",
+      "Dependencies": [
+        {
+          "Item1": "Nito.AsyncEx.Tasks",
+          "Item2": "[5.1.0, )"
+        }
+      ]
+    },
+    "Nito.AsyncEx.Coordination": {
+      "Id": "Nito.AsyncEx.Coordination",
+      "Version": "5.1.0",
+      "Dependencies": [
+        {
+          "Item1": "Nito.AsyncEx.Tasks",
+          "Item2": "[5.1.0, )"
+        },
+        {
+          "Item1": "Nito.Collections.Deque",
+          "Item2": "[1.1.0, )"
+        }
+      ]
+    },
+    "Nito.AsyncEx.Interop.WaitHandles": {
+      "Id": "Nito.AsyncEx.Interop.WaitHandles",
+      "Version": "5.1.0",
+      "Dependencies": [
+        {
+          "Item1": "Nito.AsyncEx.Tasks",
+          "Item2": "[5.1.0, )"
+        }
+      ]
+    },
+    "Nito.AsyncEx.Oop": {
+      "Id": "Nito.AsyncEx.Oop",
+      "Version": "5.1.0",
+      "Dependencies": [
+        {
+          "Item1": "Nito.AsyncEx.Coordination",
+          "Item2": "[5.1.0, )"
+        }
+      ]
+    },
+    "Nito.AsyncEx.Tasks": {
+      "Id": "Nito.AsyncEx.Tasks",
+      "Version": "5.1.0",
+      "Dependencies": [
+        {
+          "Item1": "Nito.Disposables",
+          "Item2": "[2.2.0, )"
+        }
+      ]
+    },
+    "Nito.Cancellation": {
+      "Id": "Nito.Cancellation",
+      "Version": "1.1.0",
+      "Dependencies": [
+        {
+          "Item1": "Nito.Disposables",
+          "Item2": "[2.2.0, )"
+        }
+      ]
+    },
+    "Nito.Collections.Deque": {
+      "Id": "Nito.Collections.Deque",
+      "Version": "1.1.0",
+      "Dependencies": []
+    },
+    "Nito.Disposables": {
+      "Id": "Nito.Disposables",
+      "Version": "2.2.0",
+      "Dependencies": [
+        {
+          "Item1": "System.Collections.Immutable",
+          "Item2": "[1.4.0, )"
+        }
+      ]
     },
     "NLog": {
       "Id": "NLog",
@@ -580,7 +934,7 @@
     },
     "Portable.BouncyCastle": {
       "Id": "Portable.BouncyCastle",
-      "Version": "1.8.9",
+      "Version": "1.9.0",
       "Dependencies": []
     },
     "SharpZipLib": {
@@ -607,6 +961,20 @@
       "Id": "System.ComponentModel.Annotations",
       "Version": "4.7.0",
       "Dependencies": []
+    },
+    "System.IdentityModel.Tokens.Jwt": {
+      "Id": "System.IdentityModel.Tokens.Jwt",
+      "Version": "6.12.2",
+      "Dependencies": [
+        {
+          "Item1": "Microsoft.IdentityModel.JsonWebTokens",
+          "Item2": "[6.12.2, )"
+        },
+        {
+          "Item1": "Microsoft.IdentityModel.Tokens",
+          "Item2": "[6.12.2, )"
+        }
+      ]
     },
     "System.IO.Abstractions": {
       "Id": "System.IO.Abstractions",
@@ -669,10 +1037,30 @@
         }
       ]
     },
+    "System.Runtime.Caching": {
+      "Id": "System.Runtime.Caching",
+      "Version": "5.0.0",
+      "Dependencies": []
+    },
     "System.Runtime.CompilerServices.Unsafe": {
       "Id": "System.Runtime.CompilerServices.Unsafe",
       "Version": "4.7.1",
       "Dependencies": []
+    },
+    "System.Runtime.WindowsRuntime": {
+      "Id": "System.Runtime.WindowsRuntime",
+      "Version": "4.6.0",
+      "Dependencies": []
+    },
+    "System.Runtime.WindowsRuntime.UI.Xaml": {
+      "Id": "System.Runtime.WindowsRuntime.UI.Xaml",
+      "Version": "4.6.0",
+      "Dependencies": [
+        {
+          "Item1": "System.Runtime.WindowsRuntime",
+          "Item2": "[4.6.0, )"
+        }
+      ]
     },
     "System.Text.Encoding.CodePages": {
       "Id": "System.Text.Encoding.CodePages",
@@ -777,6 +1165,28 @@
         }
       ]
     },
+    "UiPath.ConnectionClient": {
+      "Id": "UiPath.ConnectionClient",
+      "Version": "1.3.0",
+      "Dependencies": [
+        {
+          "Item1": "Newtonsoft.Json",
+          "Item2": "[11.0.2, )"
+        },
+        {
+          "Item1": "Nito.AsyncEx",
+          "Item2": "[5.1.0, )"
+        },
+        {
+          "Item1": "System.Runtime.Caching",
+          "Item2": "[5.0.0, )"
+        },
+        {
+          "Item1": "UiPath.Telemetry.Client",
+          "Item2": "[1.5.3, )"
+        }
+      ]
+    },
     "UiPath.Excel.Activities": {
       "Id": "UiPath.Excel.Activities",
       "Version": "2.12.3",
@@ -819,6 +1229,72 @@
       "Id": "UiPath.ImageProcessing",
       "Version": "22.4.1",
       "Dependencies": []
+    },
+    "UiPath.Mail.Activities": {
+      "Id": "UiPath.Mail.Activities",
+      "Version": "1.15.2",
+      "Dependencies": [
+        {
+          "Item1": "Google.Apis.Calendar.v3",
+          "Item2": "[1.55.0.2554, )"
+        },
+        {
+          "Item1": "Google.Apis.Gmail.v1",
+          "Item2": "[1.55.0.2510, )"
+        },
+        {
+          "Item1": "Google.Apis.PeopleService.v1",
+          "Item2": "[1.55.0.2567, )"
+        },
+        {
+          "Item1": "HtmlAgilityPack",
+          "Item2": "[1.11.38, )"
+        },
+        {
+          "Item1": "MailKit",
+          "Item2": "[3.1.1, )"
+        },
+        {
+          "Item1": "Microsoft.Exchange.WebServices",
+          "Item2": "[2.2.0, )"
+        },
+        {
+          "Item1": "Microsoft.Extensions.FileSystemGlobbing",
+          "Item2": "[5.0.0, )"
+        },
+        {
+          "Item1": "Microsoft.Identity.Client.Desktop",
+          "Item2": "[4.35.1, )"
+        },
+        {
+          "Item1": "Newtonsoft.Json",
+          "Item2": "[13.0.1, )"
+        },
+        {
+          "Item1": "System.IdentityModel.Tokens.Jwt",
+          "Item2": "[6.12.2, )"
+        },
+        {
+          "Item1": "System.ValueTuple",
+          "Item2": "[4.5.0, )"
+        },
+        {
+          "Item1": "UiPath.Activities.RuntimeGovernance",
+          "Item2": "[1.1.3, )"
+        },
+        {
+          "Item1": "UiPath.ConnectionClient",
+          "Item2": "[1.3.0, )"
+        },
+        {
+          "Item1": "UiPath.Platform",
+          "Item2": "[22.4.0, )"
+        },
+        {
+          "Item1": "UiPath.Telemetry.Client",
+          "Item2": "[1.5.3, )"
+        }
+      ]
     },
     "UiPath.OCR.Activities": {
       "Id": "UiPath.OCR.Activities",
@@ -1051,6 +1527,88 @@
     },
     {
       "Package": {
+        "Id": "Google.Apis",
+        "Version": "1.55.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\dariu\\.nuget\\packages\\google.apis\\1.55.0\\lib\\net45\\Google.Apis.dll",
+        "C:\\Users\\dariu\\.nuget\\packages\\google.apis\\1.55.0\\lib\\net45\\Google.Apis.PlatformServices.dll"
+      ],
+      "Path": "C:\\Users\\dariu\\.nuget\\packages\\google.apis\\1.55.0"
+    },
+    {
+      "Package": {
+        "Id": "Google.Apis.Auth",
+        "Version": "1.55.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\dariu\\.nuget\\packages\\google.apis.auth\\1.55.0\\lib\\net461\\Google.Apis.Auth.dll",
+        "C:\\Users\\dariu\\.nuget\\packages\\google.apis.auth\\1.55.0\\lib\\net461\\Google.Apis.Auth.PlatformServices.dll"
+      ],
+      "Path": "C:\\Users\\dariu\\.nuget\\packages\\google.apis.auth\\1.55.0"
+    },
+    {
+      "Package": {
+        "Id": "Google.Apis.Calendar.v3",
+        "Version": "1.55.0.2554"
+      },
+      "Assemblies": [
+        "C:\\Users\\dariu\\.nuget\\packages\\google.apis.calendar.v3\\1.55.0.2554\\lib\\net45\\Google.Apis.Calendar.v3.dll"
+      ],
+      "Path": "C:\\Users\\dariu\\.nuget\\packages\\google.apis.calendar.v3\\1.55.0.2554"
+    },
+    {
+      "Package": {
+        "Id": "Google.Apis.Core",
+        "Version": "1.55.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\dariu\\.nuget\\packages\\google.apis.core\\1.55.0\\lib\\net45\\Google.Apis.Core.dll"
+      ],
+      "Path": "C:\\Users\\dariu\\.nuget\\packages\\google.apis.core\\1.55.0"
+    },
+    {
+      "Package": {
+        "Id": "Google.Apis.Gmail.v1",
+        "Version": "1.55.0.2510"
+      },
+      "Assemblies": [
+        "C:\\Users\\dariu\\.nuget\\packages\\google.apis.gmail.v1\\1.55.0.2510\\lib\\net45\\Google.Apis.Gmail.v1.dll"
+      ],
+      "Path": "C:\\Users\\dariu\\.nuget\\packages\\google.apis.gmail.v1\\1.55.0.2510"
+    },
+    {
+      "Package": {
+        "Id": "Google.Apis.PeopleService.v1",
+        "Version": "1.55.0.2567"
+      },
+      "Assemblies": [
+        "C:\\Users\\dariu\\.nuget\\packages\\google.apis.peopleservice.v1\\1.55.0.2567\\lib\\net45\\Google.Apis.PeopleService.v1.dll"
+      ],
+      "Path": "C:\\Users\\dariu\\.nuget\\packages\\google.apis.peopleservice.v1\\1.55.0.2567"
+    },
+    {
+      "Package": {
+        "Id": "HtmlAgilityPack",
+        "Version": "1.11.38"
+      },
+      "Assemblies": [
+        "C:\\Users\\dariu\\.nuget\\packages\\htmlagilitypack\\1.11.38\\lib\\Net45\\HtmlAgilityPack.dll"
+      ],
+      "Path": "C:\\Users\\dariu\\.nuget\\packages\\htmlagilitypack\\1.11.38"
+    },
+    {
+      "Package": {
+        "Id": "MailKit",
+        "Version": "3.1.1"
+      },
+      "Assemblies": [
+        "C:\\Users\\dariu\\.nuget\\packages\\mailkit\\3.1.1\\lib\\net46\\MailKit.dll"
+      ],
+      "Path": "C:\\Users\\dariu\\.nuget\\packages\\mailkit\\3.1.1"
+    },
+    {
+      "Package": {
         "Id": "Microsoft.AspNet.SignalR.Client",
         "Version": "2.4.0"
       },
@@ -1209,6 +1767,17 @@
     },
     {
       "Package": {
+        "Id": "Microsoft.Exchange.WebServices",
+        "Version": "2.2.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\dariu\\.nuget\\packages\\microsoft.exchange.webservices\\2.2.0\\lib\\40\\Microsoft.Exchange.WebServices.Auth.dll",
+        "C:\\Users\\dariu\\.nuget\\packages\\microsoft.exchange.webservices\\2.2.0\\lib\\40\\Microsoft.Exchange.WebServices.dll"
+      ],
+      "Path": "C:\\Users\\dariu\\.nuget\\packages\\microsoft.exchange.webservices\\2.2.0"
+    },
+    {
+      "Package": {
         "Id": "Microsoft.Extensions.Configuration",
         "Version": "3.1.6"
       },
@@ -1259,6 +1828,16 @@
     },
     {
       "Package": {
+        "Id": "Microsoft.Extensions.FileSystemGlobbing",
+        "Version": "5.0.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\dariu\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\5.0.0\\lib\\net461\\Microsoft.Extensions.FileSystemGlobbing.dll"
+      ],
+      "Path": "C:\\Users\\dariu\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\5.0.0"
+    },
+    {
+      "Package": {
         "Id": "Microsoft.Extensions.Logging",
         "Version": "3.1.6"
       },
@@ -1296,6 +1875,56 @@
         "C:\\Users\\dariu\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.6\\lib\\netstandard2.0\\Microsoft.Extensions.Primitives.dll"
       ],
       "Path": "C:\\Users\\dariu\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.6"
+    },
+    {
+      "Package": {
+        "Id": "Microsoft.Identity.Client",
+        "Version": "4.35.1"
+      },
+      "Assemblies": [
+        "C:\\Users\\dariu\\.nuget\\packages\\microsoft.identity.client\\4.35.1\\lib\\net461\\Microsoft.Identity.Client.dll"
+      ],
+      "Path": "C:\\Users\\dariu\\.nuget\\packages\\microsoft.identity.client\\4.35.1"
+    },
+    {
+      "Package": {
+        "Id": "Microsoft.Identity.Client.Desktop",
+        "Version": "4.35.1"
+      },
+      "Assemblies": [
+        "C:\\Users\\dariu\\.nuget\\packages\\microsoft.identity.client.desktop\\4.35.1\\lib\\net461\\Microsoft.Identity.Client.Desktop.dll"
+      ],
+      "Path": "C:\\Users\\dariu\\.nuget\\packages\\microsoft.identity.client.desktop\\4.35.1"
+    },
+    {
+      "Package": {
+        "Id": "Microsoft.IdentityModel.JsonWebTokens",
+        "Version": "6.12.2"
+      },
+      "Assemblies": [
+        "C:\\Users\\dariu\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\6.12.2\\lib\\net461\\Microsoft.IdentityModel.JsonWebTokens.dll"
+      ],
+      "Path": "C:\\Users\\dariu\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\6.12.2"
+    },
+    {
+      "Package": {
+        "Id": "Microsoft.IdentityModel.Logging",
+        "Version": "6.12.2"
+      },
+      "Assemblies": [
+        "C:\\Users\\dariu\\.nuget\\packages\\microsoft.identitymodel.logging\\6.12.2\\lib\\net461\\Microsoft.IdentityModel.Logging.dll"
+      ],
+      "Path": "C:\\Users\\dariu\\.nuget\\packages\\microsoft.identitymodel.logging\\6.12.2"
+    },
+    {
+      "Package": {
+        "Id": "Microsoft.IdentityModel.Tokens",
+        "Version": "6.12.2"
+      },
+      "Assemblies": [
+        "C:\\Users\\dariu\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.12.2\\lib\\net461\\Microsoft.IdentityModel.Tokens.dll"
+      ],
+      "Path": "C:\\Users\\dariu\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.12.2"
     },
     {
       "Package": {
@@ -1339,13 +1968,131 @@
     },
     {
       "Package": {
-        "Id": "Newtonsoft.Json",
-        "Version": "11.0.2"
+        "Id": "Microsoft.Web.WebView2",
+        "Version": "1.0.864.35"
       },
       "Assemblies": [
-        "C:\\Users\\dariu\\.nuget\\packages\\newtonsoft.json\\11.0.2\\lib\\net45\\Newtonsoft.Json.dll"
+        "C:\\Users\\dariu\\.nuget\\packages\\microsoft.web.webview2\\1.0.864.35\\lib\\net45\\Microsoft.Web.WebView2.Core.dll",
+        "C:\\Users\\dariu\\.nuget\\packages\\microsoft.web.webview2\\1.0.864.35\\lib\\net45\\Microsoft.Web.WebView2.WinForms.dll",
+        "C:\\Users\\dariu\\.nuget\\packages\\microsoft.web.webview2\\1.0.864.35\\lib\\net45\\Microsoft.Web.WebView2.Wpf.dll"
       ],
-      "Path": "C:\\Users\\dariu\\.nuget\\packages\\newtonsoft.json\\11.0.2"
+      "Path": "C:\\Users\\dariu\\.nuget\\packages\\microsoft.web.webview2\\1.0.864.35"
+    },
+    {
+      "Package": {
+        "Id": "Microsoft.Windows.SDK.Contracts",
+        "Version": "10.0.17763.1000"
+      },
+      "Assemblies": [],
+      "Path": "C:\\Users\\dariu\\.nuget\\packages\\microsoft.windows.sdk.contracts\\10.0.17763.1000"
+    },
+    {
+      "Package": {
+        "Id": "MimeKit",
+        "Version": "3.1.1"
+      },
+      "Assemblies": [
+        "C:\\Users\\dariu\\.nuget\\packages\\mimekit\\3.1.1\\lib\\net46\\MimeKit.dll"
+      ],
+      "Path": "C:\\Users\\dariu\\.nuget\\packages\\mimekit\\3.1.1"
+    },
+    {
+      "Package": {
+        "Id": "Newtonsoft.Json",
+        "Version": "13.0.1"
+      },
+      "Assemblies": [
+        "C:\\Users\\dariu\\.nuget\\packages\\newtonsoft.json\\13.0.1\\lib\\net45\\Newtonsoft.Json.dll"
+      ],
+      "Path": "C:\\Users\\dariu\\.nuget\\packages\\newtonsoft.json\\13.0.1"
+    },
+    {
+      "Package": {
+        "Id": "Nito.AsyncEx",
+        "Version": "5.1.0"
+      },
+      "Assemblies": [],
+      "Path": "C:\\Users\\dariu\\.nuget\\packages\\nito.asyncex\\5.1.0"
+    },
+    {
+      "Package": {
+        "Id": "Nito.AsyncEx.Context",
+        "Version": "5.1.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\dariu\\.nuget\\packages\\nito.asyncex.context\\5.1.0\\lib\\netstandard2.0\\Nito.AsyncEx.Context.dll"
+      ],
+      "Path": "C:\\Users\\dariu\\.nuget\\packages\\nito.asyncex.context\\5.1.0"
+    },
+    {
+      "Package": {
+        "Id": "Nito.AsyncEx.Coordination",
+        "Version": "5.1.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\dariu\\.nuget\\packages\\nito.asyncex.coordination\\5.1.0\\lib\\netstandard2.0\\Nito.AsyncEx.Coordination.dll"
+      ],
+      "Path": "C:\\Users\\dariu\\.nuget\\packages\\nito.asyncex.coordination\\5.1.0"
+    },
+    {
+      "Package": {
+        "Id": "Nito.AsyncEx.Interop.WaitHandles",
+        "Version": "5.1.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\dariu\\.nuget\\packages\\nito.asyncex.interop.waithandles\\5.1.0\\lib\\netstandard2.0\\Nito.AsyncEx.Interop.WaitHandles.dll"
+      ],
+      "Path": "C:\\Users\\dariu\\.nuget\\packages\\nito.asyncex.interop.waithandles\\5.1.0"
+    },
+    {
+      "Package": {
+        "Id": "Nito.AsyncEx.Oop",
+        "Version": "5.1.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\dariu\\.nuget\\packages\\nito.asyncex.oop\\5.1.0\\lib\\netstandard2.0\\Nito.AsyncEx.Oop.dll"
+      ],
+      "Path": "C:\\Users\\dariu\\.nuget\\packages\\nito.asyncex.oop\\5.1.0"
+    },
+    {
+      "Package": {
+        "Id": "Nito.AsyncEx.Tasks",
+        "Version": "5.1.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\dariu\\.nuget\\packages\\nito.asyncex.tasks\\5.1.0\\lib\\netstandard2.0\\Nito.AsyncEx.Tasks.dll"
+      ],
+      "Path": "C:\\Users\\dariu\\.nuget\\packages\\nito.asyncex.tasks\\5.1.0"
+    },
+    {
+      "Package": {
+        "Id": "Nito.Cancellation",
+        "Version": "1.1.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\dariu\\.nuget\\packages\\nito.cancellation\\1.1.0\\lib\\netstandard2.0\\Nito.Cancellation.dll"
+      ],
+      "Path": "C:\\Users\\dariu\\.nuget\\packages\\nito.cancellation\\1.1.0"
+    },
+    {
+      "Package": {
+        "Id": "Nito.Collections.Deque",
+        "Version": "1.1.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\dariu\\.nuget\\packages\\nito.collections.deque\\1.1.0\\lib\\netstandard2.0\\Nito.Collections.Deque.dll"
+      ],
+      "Path": "C:\\Users\\dariu\\.nuget\\packages\\nito.collections.deque\\1.1.0"
+    },
+    {
+      "Package": {
+        "Id": "Nito.Disposables",
+        "Version": "2.2.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\dariu\\.nuget\\packages\\nito.disposables\\2.2.0\\lib\\net461\\Nito.Disposables.dll"
+      ],
+      "Path": "C:\\Users\\dariu\\.nuget\\packages\\nito.disposables\\2.2.0"
     },
     {
       "Package": {
@@ -1363,10 +2110,10 @@
         "Version": "2.5.5"
       },
       "Assemblies": [
+        "C:\\Users\\dariu\\.nuget\\packages\\npoi\\2.5.5\\lib\\net45\\NPOI.dll",
         "C:\\Users\\dariu\\.nuget\\packages\\npoi\\2.5.5\\lib\\net45\\NPOI.OOXML.dll",
         "C:\\Users\\dariu\\.nuget\\packages\\npoi\\2.5.5\\lib\\net45\\NPOI.OpenXml4Net.dll",
-        "C:\\Users\\dariu\\.nuget\\packages\\npoi\\2.5.5\\lib\\net45\\NPOI.OpenXmlFormats.dll",
-        "C:\\Users\\dariu\\.nuget\\packages\\npoi\\2.5.5\\lib\\net45\\NPOI.dll"
+        "C:\\Users\\dariu\\.nuget\\packages\\npoi\\2.5.5\\lib\\net45\\NPOI.OpenXmlFormats.dll"
       ],
       "Path": "C:\\Users\\dariu\\.nuget\\packages\\npoi\\2.5.5"
     },
@@ -1383,12 +2130,12 @@
     {
       "Package": {
         "Id": "Portable.BouncyCastle",
-        "Version": "1.8.9"
+        "Version": "1.9.0"
       },
       "Assemblies": [
-        "C:\\Users\\dariu\\.nuget\\packages\\portable.bouncycastle\\1.8.9\\lib\\net40\\BouncyCastle.Crypto.dll"
+        "C:\\Users\\dariu\\.nuget\\packages\\portable.bouncycastle\\1.9.0\\lib\\net40\\BouncyCastle.Crypto.dll"
       ],
-      "Path": "C:\\Users\\dariu\\.nuget\\packages\\portable.bouncycastle\\1.8.9"
+      "Path": "C:\\Users\\dariu\\.nuget\\packages\\portable.bouncycastle\\1.9.0"
     },
     {
       "Package": {
@@ -1429,6 +2176,16 @@
         "C:\\Users\\dariu\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\lib\\net461\\System.ComponentModel.Annotations.dll"
       ],
       "Path": "C:\\Users\\dariu\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0"
+    },
+    {
+      "Package": {
+        "Id": "System.IdentityModel.Tokens.Jwt",
+        "Version": "6.12.2"
+      },
+      "Assemblies": [
+        "C:\\Users\\dariu\\.nuget\\packages\\system.identitymodel.tokens.jwt\\6.12.2\\lib\\net461\\System.IdentityModel.Tokens.Jwt.dll"
+      ],
+      "Path": "C:\\Users\\dariu\\.nuget\\packages\\system.identitymodel.tokens.jwt\\6.12.2"
     },
     {
       "Package": {
@@ -1492,6 +2249,16 @@
     },
     {
       "Package": {
+        "Id": "System.Runtime.Caching",
+        "Version": "5.0.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\dariu\\.nuget\\packages\\system.runtime.caching\\5.0.0\\lib\\net45\\_._"
+      ],
+      "Path": "C:\\Users\\dariu\\.nuget\\packages\\system.runtime.caching\\5.0.0"
+    },
+    {
+      "Package": {
         "Id": "System.Runtime.CompilerServices.Unsafe",
         "Version": "4.7.1"
       },
@@ -1499,6 +2266,26 @@
         "C:\\Users\\dariu\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.7.1\\lib\\net461\\System.Runtime.CompilerServices.Unsafe.dll"
       ],
       "Path": "C:\\Users\\dariu\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.7.1"
+    },
+    {
+      "Package": {
+        "Id": "System.Runtime.WindowsRuntime",
+        "Version": "4.6.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\dariu\\.nuget\\packages\\system.runtime.windowsruntime\\4.6.0\\lib\\net45\\_._"
+      ],
+      "Path": "C:\\Users\\dariu\\.nuget\\packages\\system.runtime.windowsruntime\\4.6.0"
+    },
+    {
+      "Package": {
+        "Id": "System.Runtime.WindowsRuntime.UI.Xaml",
+        "Version": "4.6.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\dariu\\.nuget\\packages\\system.runtime.windowsruntime.ui.xaml\\4.6.0\\lib\\net45\\_._"
+      ],
+      "Path": "C:\\Users\\dariu\\.nuget\\packages\\system.runtime.windowsruntime.ui.xaml\\4.6.0"
     },
     {
       "Package": {
@@ -1592,6 +2379,16 @@
     },
     {
       "Package": {
+        "Id": "UiPath.ConnectionClient",
+        "Version": "1.3.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\dariu\\.nuget\\packages\\uipath.connectionclient\\1.3.0\\lib\\net461\\ConnectionClient.dll"
+      ],
+      "Path": "C:\\Users\\dariu\\.nuget\\packages\\uipath.connectionclient\\1.3.0"
+    },
+    {
+      "Package": {
         "Id": "UiPath.Excel.Activities",
         "Version": "2.12.3"
       },
@@ -1600,8 +2397,8 @@
         "C:\\Users\\dariu\\.nuget\\packages\\uipath.excel.activities\\2.12.3\\lib\\net461\\Microsoft.Vbe.Interop.dll",
         "C:\\Users\\dariu\\.nuget\\packages\\uipath.excel.activities\\2.12.3\\lib\\net461\\Office.dll",
         "C:\\Users\\dariu\\.nuget\\packages\\uipath.excel.activities\\2.12.3\\lib\\net461\\UiPath.Excel.Activities.Design.dll",
-        "C:\\Users\\dariu\\.nuget\\packages\\uipath.excel.activities\\2.12.3\\lib\\net461\\UiPath.Excel.Activities.Package.dll",
         "C:\\Users\\dariu\\.nuget\\packages\\uipath.excel.activities\\2.12.3\\lib\\net461\\UiPath.Excel.Activities.dll",
+        "C:\\Users\\dariu\\.nuget\\packages\\uipath.excel.activities\\2.12.3\\lib\\net461\\UiPath.Excel.Activities.Package.dll",
         "C:\\Users\\dariu\\.nuget\\packages\\uipath.excel.activities\\2.12.3\\lib\\net461\\UiPath.Excel.dll"
       ],
       "Path": "C:\\Users\\dariu\\.nuget\\packages\\uipath.excel.activities\\2.12.3"
@@ -1615,6 +2412,24 @@
         "C:\\Users\\dariu\\.nuget\\packages\\uipath.imageprocessing\\22.4.1\\lib\\net461\\UiPath.ImageProcessingInterop.dll"
       ],
       "Path": "C:\\Users\\dariu\\.nuget\\packages\\uipath.imageprocessing\\22.4.1"
+    },
+    {
+      "Package": {
+        "Id": "UiPath.Mail.Activities",
+        "Version": "1.15.2"
+      },
+      "Assemblies": [
+        "C:\\Users\\dariu\\.nuget\\packages\\uipath.mail.activities\\1.15.2\\lib\\net461\\Interop.Domino.UiPath.dll",
+        "C:\\Users\\dariu\\.nuget\\packages\\uipath.mail.activities\\1.15.2\\lib\\net461\\Microsoft.Office.Interop.Outlook.dll",
+        "C:\\Users\\dariu\\.nuget\\packages\\uipath.mail.activities\\1.15.2\\lib\\net461\\Microsoft.Office.Interop.Word.dll",
+        "C:\\Users\\dariu\\.nuget\\packages\\uipath.mail.activities\\1.15.2\\lib\\net461\\Office.dll",
+        "C:\\Users\\dariu\\.nuget\\packages\\uipath.mail.activities\\1.15.2\\lib\\net461\\UiPath.Mail.Activities.Design.dll",
+        "C:\\Users\\dariu\\.nuget\\packages\\uipath.mail.activities\\1.15.2\\lib\\net461\\UiPath.Mail.Activities.dll",
+        "C:\\Users\\dariu\\.nuget\\packages\\uipath.mail.activities\\1.15.2\\lib\\net461\\UiPath.Mail.Activities.Package.dll",
+        "C:\\Users\\dariu\\.nuget\\packages\\uipath.mail.activities\\1.15.2\\lib\\net461\\UiPath.Mail.dll",
+        "C:\\Users\\dariu\\.nuget\\packages\\uipath.mail.activities\\1.15.2\\lib\\net461\\UiPath.MainSessionServer.Shared.dll"
+      ],
+      "Path": "C:\\Users\\dariu\\.nuget\\packages\\uipath.mail.activities\\1.15.2"
     },
     {
       "Package": {
@@ -1680,11 +2495,11 @@
         "C:\\Users\\dariu\\.nuget\\packages\\uipath.uiautomation.activities\\22.4.7\\lib\\net461\\UiPath.CV.Activities.dll",
         "C:\\Users\\dariu\\.nuget\\packages\\uipath.uiautomation.activities\\22.4.7\\lib\\net461\\UiPath.CV.dll",
         "C:\\Users\\dariu\\.nuget\\packages\\uipath.uiautomation.activities\\22.4.7\\lib\\net461\\UiPath.UIAutomation.Activities.Design.dll",
+        "C:\\Users\\dariu\\.nuget\\packages\\uipath.uiautomation.activities\\22.4.7\\lib\\net461\\UiPath.UiAutomation.Activities.dll",
         "C:\\Users\\dariu\\.nuget\\packages\\uipath.uiautomation.activities\\22.4.7\\lib\\net461\\UiPath.UIAutomationCore.dll",
         "C:\\Users\\dariu\\.nuget\\packages\\uipath.uiautomation.activities\\22.4.7\\lib\\net461\\UiPath.UIAutomationNext.Activities.Design.dll",
         "C:\\Users\\dariu\\.nuget\\packages\\uipath.uiautomation.activities\\22.4.7\\lib\\net461\\UiPath.UIAutomationNext.Activities.dll",
         "C:\\Users\\dariu\\.nuget\\packages\\uipath.uiautomation.activities\\22.4.7\\lib\\net461\\UiPath.UIAutomationNext.dll",
-        "C:\\Users\\dariu\\.nuget\\packages\\uipath.uiautomation.activities\\22.4.7\\lib\\net461\\UiPath.UiAutomation.Activities.dll",
         "C:\\Users\\dariu\\.nuget\\packages\\uipath.uiautomation.activities\\22.4.7\\lib\\net461\\UiPath.Wizards.dll"
       ],
       "Path": "C:\\Users\\dariu\\.nuget\\packages\\uipath.uiautomation.activities\\22.4.7"
@@ -1697,10 +2512,10 @@
       "Assemblies": [
         "C:\\Users\\dariu\\.nuget\\packages\\uipath.vision\\3.3.0\\lib\\net461\\UiPath.Vision.AzureComputerVision.dll",
         "C:\\Users\\dariu\\.nuget\\packages\\uipath.vision\\3.3.0\\lib\\net461\\UiPath.Vision.Core.dll",
+        "C:\\Users\\dariu\\.nuget\\packages\\uipath.vision\\3.3.0\\lib\\net461\\UiPath.Vision.dll",
         "C:\\Users\\dariu\\.nuget\\packages\\uipath.vision\\3.3.0\\lib\\net461\\UiPath.Vision.GoogleCloud.dll",
         "C:\\Users\\dariu\\.nuget\\packages\\uipath.vision\\3.3.0\\lib\\net461\\UiPath.Vision.Microsoft.dll",
-        "C:\\Users\\dariu\\.nuget\\packages\\uipath.vision\\3.3.0\\lib\\net461\\UiPath.Vision.Tesseract.dll",
-        "C:\\Users\\dariu\\.nuget\\packages\\uipath.vision\\3.3.0\\lib\\net461\\UiPath.Vision.dll"
+        "C:\\Users\\dariu\\.nuget\\packages\\uipath.vision\\3.3.0\\lib\\net461\\UiPath.Vision.Tesseract.dll"
       ],
       "Path": "C:\\Users\\dariu\\.nuget\\packages\\uipath.vision\\3.3.0"
     }
