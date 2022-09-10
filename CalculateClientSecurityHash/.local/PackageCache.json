@@ -2,6 +2,17 @@
   "Packages": [
     {
       "Package": {
+        "Id": "UiPath.Credentials.Activities",
+        "Version": "2.0.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\dariu\\.nuget\\packages\\credentialmanagement\\1.0.2\\lib/net35/CredentialManagement.dll",
+        "C:\\Users\\dariu\\.nuget\\packages\\uipath.credentials.activities\\2.0.0\\lib/net461/UiPath.Credentials.Activities.dll"
+      ],
+      "Path": "C:\\Users\\dariu\\.nuget\\packages\\uipath.credentials.activities\\2.0.0"
+    },
+    {
+      "Package": {
         "Id": "UiPath.Excel.Activities",
         "Version": "2.12.3"
       },
@@ -162,14 +173,14 @@
     },
     {
       "Package": {
-        "Id": "UiPath.Credentials.Activities",
-        "Version": "2.0.0"
+        "Id": "Microsoft.Activities.Extensions",
+        "Version": "2.0.6.9"
       },
       "Assemblies": [
-        "C:\\Users\\dariu\\.nuget\\packages\\credentialmanagement\\1.0.2\\lib/net35/CredentialManagement.dll",
-        "C:\\Users\\dariu\\.nuget\\packages\\uipath.credentials.activities\\2.0.0\\lib/net461/UiPath.Credentials.Activities.dll"
+        "C:\\Users\\dariu\\.nuget\\packages\\microsoft.activities.extensions\\2.0.6.9\\lib/Net45/Microsoft.Activities.Extensions.Design.dll",
+        "C:\\Users\\dariu\\.nuget\\packages\\microsoft.activities.extensions\\2.0.6.9\\lib/Net45/Microsoft.Activities.Extensions.dll"
       ],
-      "Path": "C:\\Users\\dariu\\.nuget\\packages\\uipath.credentials.activities\\2.0.0"
+      "Path": "C:\\Users\\dariu\\.nuget\\packages\\microsoft.activities.extensions\\2.0.6.9"
     }
   ],
   "Conflicts": [],
@@ -211,6 +222,11 @@
     "DocumentFormat.OpenXml": {
       "Id": "DocumentFormat.OpenXml",
       "Version": "2.5.0",
+      "Dependencies": []
+    },
+    "Microsoft.Activities.Extensions": {
+      "Id": "Microsoft.Activities.Extensions",
+      "Version": "2.0.6.9",
       "Dependencies": []
     },
     "Microsoft.AspNet.SignalR.Client": {
@@ -1152,6 +1168,17 @@
         "C:\\Users\\dariu\\.nuget\\packages\\documentformat.openxml\\2.5.0\\lib\\DocumentFormat.OpenXml.dll"
       ],
       "Path": "C:\\Users\\dariu\\.nuget\\packages\\documentformat.openxml\\2.5.0"
+    },
+    {
+      "Package": {
+        "Id": "Microsoft.Activities.Extensions",
+        "Version": "2.0.6.9"
+      },
+      "Assemblies": [
+        "C:\\Users\\dariu\\.nuget\\packages\\microsoft.activities.extensions\\2.0.6.9\\lib\\Net45\\Microsoft.Activities.Extensions.Design.dll",
+        "C:\\Users\\dariu\\.nuget\\packages\\microsoft.activities.extensions\\2.0.6.9\\lib\\Net45\\Microsoft.Activities.Extensions.dll"
+      ],
+      "Path": "C:\\Users\\dariu\\.nuget\\packages\\microsoft.activities.extensions\\2.0.6.9"
     },
     {
       "Package": {
